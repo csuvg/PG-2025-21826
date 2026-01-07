@@ -1,0 +1,29 @@
+.dark-otp-container .p-inputotp {
+    gap: 8px;
+}
+
+.dark-otp-container .p-inputotp-input {
+    width: 48px !important;
+    height: 48px !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    border: 2px solid #374151 !important;
+    border-radius: 8px !important;
+    background-color: #1f2937 !important;
+    color: #ffffff !important;
+    outline: none !important;
+}
+
+.dark-otp-container .p-inputotp-input:focus {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 0 0 1px #3b82f6 !important;
+}
+
+.dark-otp-container .p-inputotp-input::placeholder {
+    color: #6b7280 !important;
+}
+
+.dark-otp-container .p-inputotp-input:hover {
+    border-color: #4b5563 !important;
+}

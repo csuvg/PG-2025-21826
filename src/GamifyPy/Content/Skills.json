@@ -1,0 +1,352 @@
+[
+  {
+    "nombre": "Comprender el concepto de variable",
+    "descripcion": "Entender qué es una variable, cómo se declara y para qué sirve en un programa.",
+    "lecciones": 1
+  },
+  {
+    "nombre": "Identificar tipos de datos básicos",
+    "descripcion": "Reconocer y utilizar correctamente los tipos de datos primitivos como int, float, str y bool.",
+    "lecciones": 2
+  },
+  {
+    "nombre": "Realizar operaciones matemáticas básicas",
+    "descripcion": "Usar operadores para sumar, restar, multiplicar, dividir y aplicar otras operaciones numéricas.",
+    "lecciones": 3
+  },
+  {
+    "nombre": "Mostrar información en pantalla",
+    "descripcion": "Utilizar la función print() y combinar texto con variables para mostrar mensajes.",
+    "lecciones": 4
+  },
+  {
+    "nombre": "Aplicar variables y operaciones en problemas simples",
+    "descripcion": "Resolver ejercicios prácticos combinando variables, entrada del usuario y operaciones básicas.",
+    "lecciones": 5
+  },
+  {
+    "nombre": "Comprender los valores booleanos",
+    "descripcion": "Identificar los valores True y False y su rol en la lógica de programación.",
+    "lecciones": 6
+  },
+  {
+    "nombre": "Usar operadores de comparación",
+    "descripcion": "Comparar datos usando ==, !=, <, >, <= y >= para obtener resultados booleanos.",
+    "lecciones": 7
+  },
+  {
+    "nombre": "Combinar condiciones con operadores lógicos",
+    "descripcion": "Evaluar múltiples condiciones utilizando los operadores and y or.",
+    "lecciones": 8
+  },
+  {
+    "nombre": "Negar expresiones booleanas",
+    "descripcion": "Usar not para invertir el valor de expresiones lógicas.",
+    "lecciones": 9
+  },
+  {
+    "nombre": "Usar estructuras condicionales simples",
+    "descripcion": "Aplicar la instrucción if para ejecutar código si se cumple una condición.",
+    "lecciones": 10
+  },
+  {
+    "nombre": "Uso de else para decisiones alternativas",
+    "descripcion": "Aplicar el bloque else para ejecutar acciones cuando una condición if no se cumple.",
+    "lecciones": 11
+  },
+  {
+    "nombre": "Manejo de condiciones múltiples con elif",
+    "descripcion": "Utilizar elif para evaluar varias condiciones de forma secuencial y clara.",
+    "lecciones": 12
+  },
+  {
+    "nombre": "Implementación de condicionales anidadas",
+    "descripcion": "Utilizar estructuras if dentro de otras para controlar múltiples niveles de decisión.",
+    "lecciones": 13
+  },
+  {
+    "nombre": "Escribir condicionales legibles y ordenadas",
+    "descripcion": "Aplicar buenas prácticas en el uso de condicionales: claridad, sangría, orden y legibilidad.",
+    "lecciones": 14
+  },
+  {
+    "nombre": "Identificación y solución de errores condicionales",
+    "descripcion": "Detectar errores frecuentes en condicionales y depurarlos mediante pruebas y observación del flujo.",
+    "lecciones": 15
+  },
+  {
+    "nombre": "Uso del bucle for para iterar secuencias",
+    "descripcion": "Iterar sobre rangos o colecciones utilizando el bucle for.",
+    "lecciones": 16
+  },
+  {
+    "nombre": "Uso del bucle while con condiciones lógicas",
+    "descripcion": "Crear bucles que se repiten mientras una condición se mantenga verdadera utilizando while.",
+    "lecciones": 17
+  },
+  {
+    "nombre": "Interrumpir bucles con break",
+    "descripcion": "Terminar la ejecución de un ciclo antes de tiempo usando break.",
+    "lecciones": 18
+  },
+  {
+    "nombre": "Saltar iteraciones con continue",
+    "descripcion": "Omitir una iteración específica de un bucle utilizando continue para mejorar el control del flujo.",
+    "lecciones": 19
+  },
+  {
+    "nombre": "Integración de estructuras de repetición",
+    "descripcion": "Combinar bucles for y while junto con break y continue para resolver problemas de forma eficiente.",
+    "lecciones": 20
+  },
+  {
+    "nombre": "Detección de errores frecuentes en ciclos",
+    "descripcion": "Identificar y corregir errores típicos como bucles infinitos, condiciones incorrectas y mal uso de índices.",
+    "lecciones": 21
+  },
+  {
+    "nombre": "Comprensión del concepto de función",
+    "descripcion": "Entender qué es una función, su estructura y los beneficios de dividir el código en bloques reutilizables.",
+    "lecciones": 22
+  },
+  {
+    "nombre": "Crear funciones básicas sin parámetros",
+    "descripcion": "Definir funciones simples sin parámetros para encapsular bloques de código reutilizable.",
+    "lecciones": 23
+  },
+  {
+    "nombre": "Crear funciones con parámetros",
+    "descripcion": "Definir funciones que reciben argumentos para personalizar su comportamiento.",
+    "lecciones": 24
+  },
+  {
+    "nombre": "Construcción de programas modulares",
+    "descripcion": "Combinar varias funciones para resolver problemas complejos, aplicando el principio de modularidad.",
+    "lecciones": 25
+  },
+  {
+    "nombre": "Visualización con Streamlit",
+    "descripcion": "Mostrar texto, títulos y resultados en una aplicación interactiva usando componentes básicos de Streamlit.",
+    "lecciones": 27
+  },
+  {
+    "nombre": "Captura de datos en apps",
+    "descripcion": "Solicitar entrada de texto o números desde el usuario y procesarla dentro de una aplicación con Streamlit.",
+    "lecciones": 28
+  },
+  {
+    "nombre": "Control interactivo de opciones",
+    "descripcion": "Usar sliders y selectbox para permitir la selección dinámica de opciones dentro de una app en Streamlit.",
+    "lecciones": 29
+  },
+  {
+    "nombre": "Activación condicional por botones",
+    "descripcion": "Generar respuestas y resultados en una app al presionar botones con lógica condicional.",
+    "lecciones": 30
+  },
+  {
+    "nombre": "Inclusión visual en apps",
+    "descripcion": "Insertar imágenes, íconos o emojis en una app de Streamlit para mejorar la experiencia del usuario.",
+    "lecciones": 31
+  },
+  {
+    "nombre": "Organización visual de contenido",
+    "descripcion": "Estructurar una aplicación con encabezados, divisiones y secciones para mejorar la legibilidad.",
+    "lecciones": 32
+  },
+  {
+    "nombre": "Comprensión de módulos",
+    "descripcion": "Entender la utilidad de los módulos en Python para organizar y reutilizar código en distintos archivos.",
+    "lecciones": 34
+  },
+  {
+    "nombre": "Generación de valores aleatorios",
+    "descripcion": "Usar funciones del módulo random como randint y choice para simular situaciones aleatorias.",
+    "lecciones": 35
+  },
+  {
+    "nombre": "Uso de funciones matemáticas avanzadas",
+    "descripcion": "Aplicar funciones del módulo math como sqrt, pow o pi para cálculos más complejos.",
+    "lecciones": 36
+  },
+  {
+    "nombre": "Modularización personalizada",
+    "descripcion": "Crear y reutilizar módulos propios con funciones definidas por el usuario.",
+    "lecciones": 37
+  },
+  {
+    "nombre": "Creación y modificación de listas",
+    "descripcion": "Definir listas, acceder a elementos por índice y modificar su contenido comprendiendo su naturaleza mutable.",
+    "lecciones": 39
+  },
+  {
+    "nombre": "Manejo de listas con métodos nativos",
+    "descripcion": "Utilizar métodos como append, insert, remove, sort y pop para gestionar listas de forma eficiente.",
+    "lecciones": 40
+  },
+  {
+    "nombre": "Manipulación avanzada de listas",
+    "descripcion": "Aplicar operaciones como concatenación, repetición y sublistas usando slicing en listas de Python.",
+    "lecciones": 41
+  },
+  {
+    "nombre": "Análisis de cadenas con indexado",
+    "descripcion": "Tratar cadenas como secuencias, acceder por índice, realizar slicing y combinar o comparar cadenas.",
+    "lecciones": 42
+  },
+  {
+    "nombre": "Transformación y limpieza de texto",
+    "descripcion": "Usar métodos como split, lower, replace y strip para procesar cadenas de texto.",
+    "lecciones": 43
+  },
+  {
+    "nombre": "Conversión entre estructuras",
+    "descripcion": "Convertir cadenas en listas y viceversa para manipular datos de forma flexible.",
+    "lecciones": 44
+  },
+  {
+    "nombre": "Recorrido secuencial de estructuras",
+    "descripcion": "Iterar sobre listas y cadenas con bucles para analizar, contar y transformar datos.",
+    "lecciones": 45
+  },
+  {
+    "nombre": "Representación con diccionarios",
+    "descripcion": "Crear diccionarios y entender cómo usar pares clave–valor para estructurar información.",
+    "lecciones": 46
+  },
+  {
+    "nombre": "Manejo básico de diccionarios",
+    "descripcion": "Acceder, agregar y modificar valores en un diccionario mediante claves.",
+    "lecciones": 47
+  },
+  {
+    "nombre": "Herramientas nativas de diccionarios",
+    "descripcion": "Aplicar métodos como get, keys, values, items y update para trabajar con diccionarios.",
+    "lecciones": 48
+  },
+  {
+    "nombre": "Iteración sobre claves y valores",
+    "descripcion": "Usar bucles para recorrer claves, valores o ambos simultáneamente en un diccionario.",
+    "lecciones": 49
+  },
+  {
+    "nombre": "Gestión de estructuras complejas",
+    "descripcion": "Manipular diccionarios que contienen otros diccionarios, accediendo a niveles múltiples de datos.",
+    "lecciones": 50
+  },
+  {
+    "nombre": "Conteo y agrupación con claves",
+    "descripcion": "Usar diccionarios para contar ocurrencias o agrupar información dinámicamente.",
+    "lecciones": 51
+  },
+  {
+    "nombre": "Identificación de errores en ejecución",
+    "descripcion": "Comprender la diferencia entre errores y excepciones, y cómo afectan el flujo del programa.",
+    "lecciones": 52
+  },
+  {
+    "nombre": "Manejo inicial de excepciones",
+    "descripcion": "Usar bloques try y except para evitar que un programa se detenga ante errores comunes.",
+    "lecciones": 53
+  },
+  {
+    "nombre": "Captura específica de errores",
+    "descripcion": "Detectar y manejar distintos tipos de errores usando múltiples cláusulas except.",
+    "lecciones": 54
+  },
+  {
+    "nombre": "Flujo completo en manejo de errores",
+    "descripcion": "Utilizar else y finally para ejecutar acciones dependiendo de si ocurrió o no una excepción.",
+    "lecciones": 55
+  },
+  {
+    "nombre": "Diagnóstico de errores frecuentes",
+    "descripcion": "Reconocer y comprender excepciones comunes como ZeroDivisionError, ValueError, IndexError y KeyError.",
+    "lecciones": 56
+  },
+  {
+    "nombre": "Uso básico del módulo Turtle",
+    "descripcion": "Crear dibujos gráficos simples utilizando la tortuga, su movimiento y comandos básicos.",
+    "lecciones": 58
+  },
+  {
+    "nombre": "Representación de figuras geométricas",
+    "descripcion": "Dibujar líneas y polígonos básicos combinando movimientos y giros de la tortuga.",
+    "lecciones": 59
+  },
+  {
+    "nombre": "Personalización visual de trazos",
+    "descripcion": "Modificar el color y grosor del trazo con funciones como pencolor() y pensize().",
+    "lecciones": 60
+  },
+  {
+    "nombre": "Estética en dibujos con relleno",
+    "descripcion": "Usar begin_fill(), fillcolor() y end_fill() para completar visualmente figuras cerradas.",
+    "lecciones": 61
+  },
+  {
+    "nombre": "Modularidad gráfica con funciones",
+    "descripcion": "Definir funciones personalizadas que generen dibujos reutilizables y organizados.",
+    "lecciones": 63
+  },
+  {
+    "nombre": "Construcción de figuras complejas",
+    "descripcion": "Dibujar formas como estrellas y polígonos usando bucles anidados y lógica angular.",
+    "lecciones": 64
+  },
+  {
+    "nombre": "Diseño visual avanzado",
+    "descripcion": "Combinar color de fondo, grosor de trazo, relleno y contrastes para mejorar los gráficos.",
+    "lecciones": 65
+  },
+  {
+    "nombre": "Generación de patrones simétricos",
+    "descripcion": "Usar rotación, repetición y capas para crear mandalas con Turtle.",
+    "lecciones": 66
+  },
+  {
+    "nombre": "Inicialización de entorno Pygame",
+    "descripcion": "Crear una ventana básica usando pygame.init() y configurar el área de juego.",
+    "lecciones": 69
+  },
+  {
+    "nombre": "Personalización del fondo del juego",
+    "descripcion": "Aplicar color de fondo y actualizar la pantalla con fill() y pygame.display.update().",
+    "lecciones": 70
+  },
+  {
+    "nombre": "Incorporación de elementos gráficos",
+    "descripcion": "Cargar imágenes externas con pygame.image.load() y mostrarlas en pantalla con coordenadas específicas.",
+    "lecciones": 71
+  },
+  {
+    "nombre": "Manejo de eventos del usuario",
+    "descripcion": "Detectar y responder a pulsaciones de teclas usando pygame.KEYDOWN y event.key.",
+    "lecciones": 72
+  },
+  {
+    "nombre": "Control del ciclo de vida del juego",
+    "descripcion": "Implementar un bucle de juego que gestione eventos, actualizaciones y dibujado de pantalla.",
+    "lecciones": 73
+  },
+  {
+    "nombre": "Control de sprites mediante teclado",
+    "descripcion": "Modificar la posición de un objeto en pantalla según las teclas presionadas por el jugador.",
+    "lecciones": 74
+  },
+  {
+    "nombre": "Control de velocidad y fluidez",
+    "descripcion": "Usar Clock de Pygame para limitar los FPS y lograr movimiento fluido y constante.",
+    "lecciones": 75
+  },
+  {
+    "nombre": "Verificación de colisión entre objetos",
+    "descripcion": "Utilizar colliderect() para detectar si dos objetos se han tocado durante el juego.",
+    "lecciones": 76
+  },
+  {
+    "nombre": "Implementación de reglas de juego",
+    "descripcion": "Gestionar estados como puntuación, vidas, y condiciones de victoria o derrota.",
+    "lecciones": 77
+  }
+]

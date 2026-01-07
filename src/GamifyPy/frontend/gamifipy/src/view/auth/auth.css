@@ -1,0 +1,10 @@
+.auth-Title {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.auth-Title h1 {
+    font-size: 4rem;
+}

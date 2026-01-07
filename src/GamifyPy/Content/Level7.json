@@ -1,0 +1,167 @@
+[
+  {
+    "id_leccion": 34,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace import math en un programa?",
+    "respuesta": "Trae funciones matemáticas",
+    "opciones": [
+      {"texto": "Crea un error", "correcta": false},
+      {"texto": "Trae funciones matemáticas", "correcta": true},
+      {"texto": "Elimina código", "correcta": false},
+      {"texto": "Cambia el tipo de datos", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 35,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Para qué sirve random.choice()?",
+    "respuesta": "Elige un valor al azar",
+    "opciones": [
+      {"texto": "Ordena elementos", "correcta": false},
+      {"texto": "Suma dos números", "correcta": false},
+      {"texto": "Elige un valor al azar", "correcta": true},
+      {"texto": "Repite una función", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 34,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué significa modularidad?",
+    "respuesta": "Dividir el código en partes reutilizables",
+    "opciones": [
+      {"texto": "Dibujar muchas cosas", "correcta": false},
+      {"texto": "Dividir el código en partes reutilizables", "correcta": true},
+      {"texto": "Hacer que el programa sea más lento", "correcta": false},
+      {"texto": "Escribir menos funciones", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 36,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el resultado de math.sqrt(16)?",
+    "respuesta": "4",
+    "opciones": [
+      {"texto": "4", "correcta": true},
+      {"texto": "8", "correcta": false},
+      {"texto": "2", "correcta": false},
+      {"texto": "256", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 35,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué módulo usarías para generar un número aleatorio entre 1 y 10?",
+    "respuesta": "random",
+    "opciones": [
+      {"texto": "math", "correcta": false},
+      {"texto": "random", "correcta": true},
+      {"texto": "time", "correcta": false},
+      {"texto": "os", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 36,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace math.pow(2, 3)?",
+    "respuesta": "Calcula 2 elevado a la 3",
+    "opciones": [
+      {"texto": "Resta 2 y 3", "correcta": false},
+      {"texto": "Calcula la raíz cuadrada", "correcta": false},
+      {"texto": "Calcula 2 elevado a la 3", "correcta": true},
+      {"texto": "Convierte a entero", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 37,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué se necesita para usar un módulo personalizado?",
+    "respuesta": "Llamarlo con import",
+    "opciones": [
+      {"texto": "Crear una función con def", "correcta": false},
+      {"texto": "Llamarlo con import", "correcta": true},
+      {"texto": "Llamarlo con random", "correcta": false},
+      {"texto": "Escribir su nombre en un comentario", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 35,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de estas funciones es parte del módulo random?",
+    "respuesta": "random.randint()",
+    "opciones": [
+      {"texto": "random.range()", "correcta": false},
+      {"texto": "random.number()", "correcta": false},
+      {"texto": "random.randint()", "correcta": true},
+      {"texto": "random.pow()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 35,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace este código?\nimport random\nopciones = [\"rojo\", \"azul\", \"verde\"]\nprint(random.choice(opciones))",
+    "respuesta": "Elige e imprime un color al azar",
+    "opciones": [
+      {"texto": "Imprime “rojo” siempre", "correcta": false},
+      {"texto": "Imprime “azul” siempre", "correcta": false},
+      {"texto": "Elige e imprime un color al azar", "correcta": true},
+      {"texto": "Da error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 36,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Importa el módulo math y calcula la raíz cuadrada de 25:",
+    "codigo_inicial": "import ______\nresultado = math.____(25)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 36,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el código para importar solo pi del módulo math:",
+    "codigo_inicial": "from math import __\nprint(pi)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 35,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el código para usar random.randint(1, 6) en un juego de dados:",
+    "codigo_inicial": "import random\ndado = random.____(1, 6)\nprint(\"Sacaste un\", dado)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 37,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el import para usar un módulo propio llamado mi_modulo:",
+    "codigo_inicial": "_______ mi_modulo\nmi_modulo.saludar()",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 37,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crea un módulo llamado emociones.py con al menos dos funciones: felicidad() y enojo(). Cada función debe devolver un mensaje mágico relacionado con la emoción correspondiente.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 38,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crea una función llamada crear_personaje() que use random para elegir un nombre y clase, y math para calcular un poder mágico; la función debe devolver una descripción completa del personaje e imprimir el resultado al ejecutarla.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

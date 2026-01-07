@@ -1,0 +1,167 @@
+[
+  {
+    "id_leccion": 69,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace pygame.init()?",
+    "respuesta": "Inicializa los módulos de Pygame",
+    "opciones": [
+      { "texto": "Cierra la ventana", "correcta": false },
+      { "texto": "Inicia el juego", "correcta": false },
+      { "texto": "Inicializa los módulos de Pygame", "correcta": true },
+      { "texto": "Crea una imagen", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 69,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué código crea una ventana de 800x600?",
+    "respuesta": "pygame.display.set_mode((800, 600))",
+    "opciones": [
+      { "texto": "pygame.Window(800, 600)", "correcta": false },
+      { "texto": "pygame.set_size(800, 600)", "correcta": false },
+      { "texto": "pygame.display.set_mode((800, 600))", "correcta": true },
+      { "texto": "pygame.init_window(800, 600)", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 70,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cómo se define un color blanco en RGB?",
+    "respuesta": "(255, 255, 255)",
+    "opciones": [
+      { "texto": "(255, 255, 255)", "correcta": true },
+      { "texto": "(0, 0, 0)", "correcta": false },
+      { "texto": "(255, 0, 0)", "correcta": false },
+      { "texto": "(128, 128, 128)", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 70,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace pygame.display.update()?",
+    "respuesta": "Refresca la pantalla con los cambios",
+    "opciones": [
+      { "texto": "Cierra la ventana", "correcta": false },
+      { "texto": "Actualiza el fondo", "correcta": false },
+      { "texto": "Refresca la pantalla con los cambios", "correcta": true },
+      { "texto": "Borra todo lo dibujado", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 71,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es la función para cargar una imagen?",
+    "respuesta": "pygame.image.load()",
+    "opciones": [
+      { "texto": "pygame.draw.image()", "correcta": false },
+      { "texto": "pygame.image.load()", "correcta": true },
+      { "texto": "pygame.add_image()", "correcta": false },
+      { "texto": "pygame.blit_image()", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 72,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué evento se activa al presionar una tecla?",
+    "respuesta": "pygame.KEYDOWN",
+    "opciones": [
+      { "texto": "pygame.MOUSEBUTTONDOWN", "correcta": false },
+      { "texto": "pygame.KEYDOWN", "correcta": true },
+      { "texto": "pygame.QUIT", "correcta": false },
+      { "texto": "pygame.TEXT_INPUT", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 73,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Para qué se usa pygame.quit()?",
+    "respuesta": "Salir correctamente del juego",
+    "opciones": [
+      { "texto": "Reiniciar el juego", "correcta": false },
+      { "texto": "Salir correctamente del juego", "correcta": true },
+      { "texto": "Detener sonido", "correcta": false },
+      { "texto": "Ocultar los gráficos", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 72,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cómo detectas si se presionó la flecha derecha?",
+    "respuesta": "event.key == pygame.K_RIGHT",
+    "opciones": [
+      { "texto": "event.key == \"right\"", "correcta": false },
+      { "texto": "event.key == pygame.RIGHT", "correcta": false },
+      { "texto": "event.key == pygame.K_RIGHT", "correcta": true },
+      { "texto": "event == right_arrow", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 73,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de estos es un bucle principal válido?",
+    "respuesta": "while corriendo:",
+    "opciones": [
+      { "texto": "loop forever:", "correcta": false },
+      { "texto": "while juego:", "correcta": false },
+      { "texto": "while True:", "correcta": false },
+      { "texto": "while corriendo:", "correcta": true }
+    ]
+  },
+  {
+    "id_leccion": 69,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para crear una ventana de 600x400 con título \"Juego Prueba\":",
+    "codigo_inicial": "pygame.____()\nventana = pygame.display.set_mode((___, ___))\npygame.display.set_caption(\"Juego Prueba\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 71,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para cargar y mostrar una imagen en posición (150, 150):",
+    "codigo_inicial": "imagen = pygame.image.______(\"mi_personaje.png\")\nventana.____(imagen, (150, 150))\npygame.display.____()",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 72,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para detectar si se presiona espacio:",
+    "codigo_inicial": "if evento.type == ________:\n    if evento.key == ________:\n        print(\"¡Salto!\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 73,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el bucle del juego:",
+    "codigo_inicial": "while ________:\n    for evento in pygame.event.get():\n        if evento.type == pygame.________:\n            corriendo = False",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 70,
+    "tipo": "codigo",
+    "puntos": 20,
+    "texto": "Crea una ventana de 800x600 donde el fondo sea azul y aparezca una imagen en el centro. Al presionar una tecla, imprime cuál fue presionada.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 72,
+    "tipo": "codigo",
+    "puntos": 20,
+    "texto": "Carga un personaje y permite moverlo con las flechas (K_LEFT, K_RIGHT). Usa ventana.fill() para actualizar el fondo y dibujar el personaje en nuevas posiciones.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

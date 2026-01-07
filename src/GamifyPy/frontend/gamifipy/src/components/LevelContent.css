@@ -1,0 +1,342 @@
+.level-container {
+    min-height: 100vh;
+    color: white;
+    padding: 50px;
+}
+
+.level-max-width {
+    max-width: 896px;
+    margin: 0 auto;
+}
+
+.level-section-container {
+    margin-bottom: 24px;
+}
+
+.level-section-card {
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    border: 1px solid;
+}
+
+.level-lecciones-card {
+    background: linear-gradient(90deg, rgba(30, 58, 138, 0.4) 0%, rgba(88, 28, 135, 0.4) 100%);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.level-lecciones-card.expanded {
+    border-color: rgba(59, 130, 246, 0.5);
+}
+
+.level-ejercicios-card {
+    background: linear-gradient(90deg, rgba(154, 52, 18, 0.4) 0%, rgba(153, 27, 27, 0.4) 100%);
+    border-color: rgba(249, 115, 22, 0.3);
+}
+
+.level-ejercicios-card.expanded {
+    border-color: rgba(249, 115, 22, 0.5);
+}
+
+.level-section-header {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.level-section-header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.level-section-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.level-lecciones-icon {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.level-ejercicios-icon {
+    background: linear-gradient(135deg, #f97316 0%, #dc2626 100%);
+}
+
+.level-section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+
+.level-section-subtitle {
+    color: #d1d5db;
+    margin: 4px 0;
+}
+
+.level-section-progress {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 4px;
+}
+
+.level-progress-text-small {
+    font-size: 0.875rem;
+}
+
+.level-progress-text-tiny {
+    font-size: 0.75rem;
+    color: #9ca3af;
+}
+
+.level-lecciones-progress-text {
+    color: #3b82f6;
+}
+
+.level-ejercicios-progress-text {
+    color: #f97316;
+}
+
+.level-section-header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.level-section-progress-bar {
+    padding: 0 24px 24px;
+}
+
+.level-section-progress-bar-inner {
+    background-color: rgba(31, 41, 55, 0.5);
+    border-radius: 9999px;
+    height: 12px;
+    overflow: hidden;
+}
+
+.level-lecciones-progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
+    transition: width 0.5s ease;
+}
+
+.level-ejercicios-progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #f97316 0%, #dc2626 100%);
+    transition: width 0.5s ease;
+}
+
+.level-expanded-content {
+    padding: 0 24px 24px;
+}
+
+.level-expanded-content-inner {
+    border-top: 1px solid rgba(107, 114, 128, 0.5);
+    padding-top: 24px;
+}
+
+.level-items-grid {
+    display: grid;
+    gap: 12px;
+}
+
+.level-exercise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 12px;
+}
+
+.disabled-section {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.level-item {
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.level-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.level-completed-leccion {
+    background-color: rgba(34, 197, 94, 0.2);
+    border-color: rgba(34, 197, 94, 0.3);
+}
+
+.level-completed-leccion:hover {
+    border-color: rgba(34, 197, 94, 0.5);
+}
+
+.level-pending-leccion {
+    background-color: rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.level-pending-leccion:hover {
+    border-color: rgba(59, 130, 246, 0.5);
+}
+
+.level-completed-ejercicio {
+    background-color: rgba(34, 197, 94, 0.2);
+    border-color: rgba(34, 197, 94, 0.3);
+}
+
+.level-completed-ejercicio:hover {
+    border-color: rgba(34, 197, 94, 0.5);
+}
+
+.level-pending-ejercicio {
+    background-color: rgba(249, 115, 22, 0.2);
+    border-color: rgba(249, 115, 22, 0.3);
+}
+
+.level-pending-ejercicio:hover {
+    border-color: rgba(249, 115, 22, 0.5);
+}
+
+.level-item-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.level-item-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.level-item-number {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: white;
+}
+
+.level-completed-number {
+    background-color: #22c55e;
+}
+
+.level-pending-number-leccion {
+    background-color: #3b82f6;
+}
+
+.level-pending-number-ejercicio {
+    background-color: #f97316;
+}
+
+.level-item-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.level-item-name {
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+.level-item-name-small {
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.level-item-status {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    margin-top: 4px;
+}
+
+.level-play-icon {
+    transition: color 0.2s ease;
+}
+
+.level-item:hover .level-play-icon {
+    color: white !important;
+}
+
+.level-disabled-leccion {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.level-disabled-number {
+    background-color: #e5e7eb;
+    color: #9ca3af;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.level-expanded-content {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@media (max-width: 768px) {
+    .level-container {
+        padding: 16px;
+    }
+
+    .level-section-header {
+        padding: 20px;
+    }
+
+    .level-section-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .level-section-title {
+        font-size: 1.25rem;
+    }
+
+    .level-exercise-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .level-section-progress {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .level-item-name {
+        font-size: 0.75rem;
+    }
+
+    .level-item-status {
+        font-size: 0.70rem;
+    }
+}

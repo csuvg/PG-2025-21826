@@ -1,0 +1,38 @@
+Última actualización: 3 de agosto de 2025
+
+La presente Política de Privacidad describe cómo recopilamos, usamos y protegemos la información personal de los usuarios que acceden y utilizan GamifyPy.
+
+1. Información que Recopilamos
+Al registrarse y utilizar la Plataforma, podemos recopilar los siguientes tipos de datos:
+•	Datos personales: nombre y dirección de correo electrónico
+•	Datos de uso: progreso en los ejercicios, puntuaciones, respuestas, tiempo de uso, niveles completados.
+•	Interacciones con la IA: fragmentos de código enviados y retroalimentación recibida.
+
+2. Finalidad del Tratamiento
+Utilizamos su información para:
+•	Evaluar su aprendizaje.
+•	Proporcionar reportes de avance.
+•	Mejorar el diseño pedagógico de la Plataforma.
+•	Garantizar la seguridad y el correcto funcionamiento del sistema.
+
+3. Compartición de Información
+No compartimos sus datos personales con terceros, salvo en los siguientes casos:
+•	Cuando sea requerido por ley.
+•	De forma anonimizada para fines de investigación académica o análisis de mejora educativa.
+
+4. Seguridad de los Datos
+Implementamos medidas técnicas y organizativas para proteger su información personal frente a accesos no autorizados, pérdida o alteración. 
+
+5. Derechos del Usuario
+Usted tiene derecho a:
+•	Acceder a sus datos personales.
+•	Solicitar la corrección o eliminación de datos incorrectos o innecesarios.
+•	Revocar su consentimiento para el tratamiento de sus datos.
+•	Solicitar la eliminación total de su cuenta y datos asociados.
+Para ejercer estos derechos, puede comunicarse con nuestro equipo de soporte a través del correo electrónico [ssolorzano10@gmail.com].
+
+6. Cookies y Tecnologías Similares
+La Plataforma puede usar cookies para recordar sus preferencias, mantener su sesión activa y mejorar su experiencia. Usted puede configurar su navegador para rechazar cookies, pero esto podría limitar algunas funcionalidades.
+
+7. Modificaciones
+Nos reservamos el derecho de actualizar esta Política de Privacidad en cualquier momento. Notificaremos los cambios importantes mediante un aviso dentro de la Plataforma.

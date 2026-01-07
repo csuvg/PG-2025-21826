@@ -1,0 +1,167 @@
+[
+  {
+    "id_leccion": 7,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el resultado de 10 == 10?",
+    "respuesta": "True",
+    "opciones": [
+      {"texto": "True", "correcta": true},
+      {"texto": "False", "correcta": false},
+      {"texto": "10", "correcta": false},
+      {"texto": "Error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 7,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué valor devuelve 5 != 5?",
+    "respuesta": "False",
+    "opciones": [
+      {"texto": "True", "correcta": false},
+      {"texto": "False", "correcta": true},
+      {"texto": "None", "correcta": false},
+      {"texto": "5", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 7,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál expresión es verdadera?",
+    "respuesta": "3 <= 3",
+    "opciones": [
+      {"texto": "4 > 10", "correcta": false},
+      {"texto": "7 == 8", "correcta": false},
+      {"texto": "3 <= 3", "correcta": true},
+      {"texto": "\"hola\" != \"hola\"", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 8,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace el operador and?",
+    "respuesta": "Evalúa si ambas condiciones son verdaderas",
+    "opciones": [
+      {"texto": "Niega una condición", "correcta": false},
+      {"texto": "Compara si al menos una condición es verdadera", "correcta": false},
+      {"texto": "Evalúa si ambas condiciones son verdaderas", "correcta": true},
+      {"texto": "Une cadenas de texto", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 8,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de estas expresiones es falsa?",
+    "respuesta": "2 == 2 and 4 < 1",
+    "opciones": [
+      {"texto": "5 < 6", "correcta": false},
+      {"texto": "3 >= 3", "correcta": false},
+      {"texto": "2 == 2 and 4 < 1", "correcta": true},
+      {"texto": "not False", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 9,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el resultado de not True?",
+    "respuesta": "False",
+    "opciones": [
+      {"texto": "True", "correcta": false},
+      {"texto": "False", "correcta": true},
+      {"texto": "None", "correcta": false},
+      {"texto": "Error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 9,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué operador se usa para negar una condición?",
+    "respuesta": "not",
+    "opciones": [
+      {"texto": "and", "correcta": false},
+      {"texto": "or", "correcta": false},
+      {"texto": "not", "correcta": true},
+      {"texto": "!=", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 8,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué valor devuelve True or False?",
+    "respuesta": "True",
+    "opciones": [
+      {"texto": "True", "correcta": true},
+      {"texto": "False", "correcta": false},
+      {"texto": "None", "correcta": false},
+      {"texto": "Error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 8,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de estas condiciones evalúa como True?",
+    "respuesta": "4 > 6 or 2 == 2",
+    "opciones": [
+      {"texto": "not (5 < 10)", "correcta": false},
+      {"texto": "4 > 6 or 2 == 2", "correcta": true},
+      {"texto": "7 < 3 and 3 > 1", "correcta": false},
+      {"texto": "True and False", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 7,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el código para verificar si edad es mayor que 18:",
+    "codigo_inicial": "edad = 20\nmayor_de_edad = _________\nprint(mayor_de_edad)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 8,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa esta expresión para que el resultado sea True:",
+    "codigo_inicial": "condicion = False ___ True",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 9,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Usa not para invertir un valor:",
+    "codigo_inicial": "es_admin = False\nacceso = ________\nprint(acceso)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 8,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crea una expresión que sea True usando and, or y not:",
+    "codigo_inicial": "resultado = (3 < 5 and not False) or ________\nprint(resultado)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 7,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un programa que indique si dos nombres son iguales (ignora mayúsculas y minúsculas).",
+    "codigo_inicial": "nombre1 = input(\"Ingresa el primer nombre: \")\nnombre2 = input(\"Ingresa el segundo nombre: \")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 7,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crea un programa que indique si un número ingresado es negativo.",
+    "codigo_inicial": "numero = int(input(\"Ingresa un número: \"))",
+    "respuesta": ""
+  }
+]

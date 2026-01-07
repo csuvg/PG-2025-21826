@@ -1,0 +1,238 @@
+[
+  {
+    "id_leccion": 46,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué estructura almacena pares clave-valor en Python?",
+    "respuesta": "Diccionario",
+    "opciones": [
+      {"texto": "Lista", "correcta": false},
+      {"texto": "Tupla", "correcta": false},
+      {"texto": "Diccionario", "correcta": true},
+      {"texto": "Conjunto", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 48,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué devuelve diccionario.get(\"clave\") si no existe?",
+    "respuesta": "None",
+    "opciones": [
+      {"texto": "None", "correcta": true},
+      {"texto": "Error", "correcta": false},
+      {"texto": "False", "correcta": false},
+      {"texto": "0", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 48,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué método se usa para obtener todas las claves?",
+    "respuesta": "keys()",
+    "opciones": [
+      {"texto": "values()", "correcta": false},
+      {"texto": "items()", "correcta": false},
+      {"texto": "keys()", "correcta": true},
+      {"texto": "labels()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 47,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace persona[\"edad\"] = 25 si ya existe \"edad\"?",
+    "respuesta": "Modifica el valor",
+    "opciones": [
+      {"texto": "Lo borra", "correcta": false},
+      {"texto": "Crea una nueva clave", "correcta": false},
+      {"texto": "Modifica el valor", "correcta": true},
+      {"texto": "No hace nada", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 49,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué permite recorrer claves y valores al mismo tiempo?",
+    "respuesta": "for x, y in dict.items()",
+    "opciones": [
+      {"texto": "for x in dict.keys()", "correcta": false},
+      {"texto": "for x, y in dict.items()", "correcta": true},
+      {"texto": "for x, y in dict.get()", "correcta": false},
+      {"texto": "for dict in item()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 46,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué tipo de datos no se puede usar como clave?",
+    "respuesta": "list",
+    "opciones": [
+      {"texto": "str", "correcta": false},
+      {"texto": "int", "correcta": false},
+      {"texto": "tuple", "correcta": false},
+      {"texto": "list", "correcta": true}
+    ]
+  },
+  {
+    "id_leccion": 46,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el resultado de len({\"a\": 1, \"b\": 2, \"c\": 3})?",
+    "respuesta": "3",
+    "opciones": [
+      {"texto": "2", "correcta": false},
+      {"texto": "3", "correcta": true},
+      {"texto": "6", "correcta": false},
+      {"texto": "Error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 48,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace mi_dict.pop(\"clave\")?",
+    "respuesta": "Elimina y retorna el valor de \"clave\"",
+    "opciones": [
+      {"texto": "Elimina la última clave", "correcta": false},
+      {"texto": "Elimina y retorna el valor de \"clave\"", "correcta": true},
+      {"texto": "Agrega una clave", "correcta": false},
+      {"texto": "Ordena el diccionario", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 48,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué devuelve list(diccionario.values())?",
+    "respuesta": "Lista de valores",
+    "opciones": [
+      {"texto": "Lista de claves", "correcta": false},
+      {"texto": "Lista de valores", "correcta": true},
+      {"texto": "Lista de tuplas", "correcta": false},
+      {"texto": "Diccionario", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 48,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué significa in en diccionarios?",
+    "respuesta": "Verifica si una clave existe",
+    "opciones": [
+      {"texto": "Agrega claves", "correcta": false},
+      {"texto": "Recorre valores", "correcta": false},
+      {"texto": "Verifica si una clave existe", "correcta": true},
+      {"texto": "Borra claves", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 48,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace mi_dict.update({\"nuevo\": 5})?",
+    "respuesta": "Añade o actualiza una clave",
+    "opciones": [
+      {"texto": "Reemplaza el diccionario", "correcta": false},
+      {"texto": "Añade o actualiza una clave", "correcta": true},
+      {"texto": "Elimina un valor", "correcta": false},
+      {"texto": "Duplica el diccionario", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 46,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué tipo de estructura es {} en Python?",
+    "respuesta": "Diccionario vacío",
+    "opciones": [
+      {"texto": "Lista vacía", "correcta": false},
+      {"texto": "Conjunto vacío", "correcta": false},
+      {"texto": "Diccionario vacío", "correcta": true},
+      {"texto": "Tupla vacía", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 48,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para imprimir todos los valores:",
+    "codigo_inicial": "for v in mi_diccionario.________:\n    print(v)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 47,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Modifica este diccionario para cambiar “edad” a 40:",
+    "codigo_inicial": "persona = {\"nombre\": \"Elena\", \"edad\": 25}",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 47,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Agrega un nuevo estudiante a este diccionario:",
+    "codigo_inicial": "alumnos = {}",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 46,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crea un diccionario con claves: lunes, martes, miércoles y valores: 1, 2, 3:",
+    "codigo_inicial": "dias = {________}",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 49,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Recorrer el diccionario e imprimir \"rojo → #FF0000\":",
+    "codigo_inicial": "colores = {\"rojo\": \"#FF0000\", \"azul\": \"#0000FF\"}\nfor _____, _____ in colores.items():\n    print(_____ + \" → \" + _____)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 48,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Usa get() para obtener la edad de un diccionario persona, o mostrar “No disponible” si no existe:",
+    "codigo_inicial": "edad = persona._____(\"edad\", \"No disponible\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 46,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crear una función crear_contacto(nombre, teléfono) que retorne un diccionario",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 50,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crear un programa que use diccionarios anidados para 3 productos",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 51,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un programa que cuente cuántas veces aparece cada letra en una palabra",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 51,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crear una función que reciba una lista de nombres y devuelva un diccionario con la cantidad de veces que aparece cada uno",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

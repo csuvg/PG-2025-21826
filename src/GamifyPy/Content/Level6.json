@@ -1,0 +1,214 @@
+[
+  {
+    "id_leccion": 27,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace st.title()?",
+    "respuesta": "Agrega un título grande",
+    "opciones": [
+      {"texto": "Muestra un botón", "correcta": false},
+      {"texto": "Agrega un título grande", "correcta": true},
+      {"texto": "Inserta una imagen", "correcta": false},
+      {"texto": "Escribe en consola", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 29,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Para qué sirve st.slider()?",
+    "respuesta": "Para elegir un número dentro de un rango",
+    "opciones": [
+      {"texto": "Para crear listas", "correcta": false},
+      {"texto": "Para elegir un número dentro de un rango", "correcta": true},
+      {"texto": "Para mostrar imágenes", "correcta": false},
+      {"texto": "Para cargar archivos", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 31,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué comando permite mostrar imágenes?",
+    "respuesta": "st.image()",
+    "opciones": [
+      {"texto": "st.pic()", "correcta": false},
+      {"texto": "st.img()", "correcta": false},
+      {"texto": "st.image()", "correcta": true},
+      {"texto": "st.show_img()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 27,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál comando lanza una app en Streamlit desde consola?",
+    "respuesta": "streamlit run archivo.py",
+    "opciones": [
+      {"texto": "python archivo.py", "correcta": false},
+      {"texto": "streamlit run archivo.py", "correcta": true},
+      {"texto": "run archivo.py", "correcta": false},
+      {"texto": "streamlit start archivo.py", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 30,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el propósito de st.button()?",
+    "respuesta": "Enviar datos al hacer clic",
+    "opciones": [
+      {"texto": "Escribir texto", "correcta": false},
+      {"texto": "Enviar datos al hacer clic", "correcta": true},
+      {"texto": "Crear menús", "correcta": false},
+      {"texto": "Mostrar imágenes", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 28,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué componente usarías para pedir el nombre del usuario?",
+    "respuesta": "st.text_input()",
+    "opciones": [
+      {"texto": "st.input()", "correcta": false},
+      {"texto": "st.ask()", "correcta": false},
+      {"texto": "st.text_input()", "correcta": true},
+      {"texto": "st.entry()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 30,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace st.success()?",
+    "respuesta": "Muestra un mensaje destacado en verde",
+    "opciones": [
+      {"texto": "Muestra un texto de error", "correcta": false},
+      {"texto": "Cierra la app", "correcta": false},
+      {"texto": "Muestra un mensaje destacado en verde", "correcta": true},
+      {"texto": "Reinicia los inputs", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 32,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué comando permite separar visualmente secciones?",
+    "respuesta": "st.markdown(\"---\")",
+    "opciones": [
+      {"texto": "st.divide()", "correcta": false},
+      {"texto": "st.break()", "correcta": false},
+      {"texto": "st.markdown(\"---\")", "correcta": true},
+      {"texto": "st.line()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 29,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué tipo de dato retorna st.slider()?",
+    "respuesta": "Entero o flotante",
+    "opciones": [
+      {"texto": "Lista", "correcta": false},
+      {"texto": "Booleano", "correcta": false},
+      {"texto": "Entero o flotante", "correcta": true},
+      {"texto": "Texto", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 29,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace st.selectbox()?",
+    "respuesta": "Permite elegir una opción entre varias",
+    "opciones": [
+      {"texto": "Muestra botones de opción", "correcta": false},
+      {"texto": "Permite elegir una opción entre varias", "correcta": true},
+      {"texto": "Permite escribir texto", "correcta": false},
+      {"texto": "Crea listas desplegables (solo con múltiples respuestas)", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 31,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cómo puedes usar emojis en Streamlit?",
+    "respuesta": "st.write(\"😃\")",
+    "opciones": [
+      {"texto": "st.emoji()", "correcta": false},
+      {"texto": "st.text(\"emoji\")", "correcta": false},
+      {"texto": "st.write(\"😃\")", "correcta": true},
+      {"texto": "No se puede", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 30,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué pasa si no usas if st.button(): y colocas la lógica directamente?",
+    "respuesta": "El código se ejecuta siempre",
+    "opciones": [
+      {"texto": "La app no carga", "correcta": false},
+      {"texto": "El código se ejecuta siempre", "correcta": true},
+      {"texto": "El botón no aparece", "correcta": false},
+      {"texto": "Genera error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 30,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para mostrar un saludo solo al hacer clic:",
+    "codigo_inicial": "if st.______(\"Saludar\"):\n    st.______(f\"Hola, {nombre}!\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 28,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para pedir la edad y limitar el rango:",
+    "codigo_inicial": "edad = st.______(\"Edad:\", min_value=0, max_value=120)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 31,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para mostrar una imagen y su descripción:",
+    "codigo_inicial": "st.______(\"ruta/a/logo.png\", width=150)\nst.______(\"Este es el logo\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 32,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crea una sección con título y subtítulo:",
+    "codigo_inicial": "st.______(\"Bienvenido a mi app\")\nst.______(\"Esta sección muestra datos\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 33,
+    "tipo": "codigo",
+    "puntos": 25,
+    "texto": "Crea una app que:\n• Pida un número entero del 1 al 100\n• Muestre si es par o impar al presionar un botón",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 33,
+    "tipo": "codigo",
+    "puntos": 25,
+    "texto": "Crea una app que:\n• Pida el nombre del usuario\n• Solicite un mensaje o recordatorio\n• Use un slider para definir cuántas veces repetir el mensaje (entre 1 y 10)\n• Muestre el mensaje repetido varias veces usando st.write()",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 33,
+    "tipo": "codigo",
+    "puntos": 25,
+    "texto": "Crea una app que:\n• Pida dos números\n• Use botones individuales para sumar, restar, multiplicar o dividir\n• Muestre el resultado solo del botón presionado",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

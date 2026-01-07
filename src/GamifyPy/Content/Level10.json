@@ -1,0 +1,167 @@
+[
+  {
+    "id_leccion": 53,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace el bloque try?",
+    "respuesta": "Intenta ejecutar código que puede fallar",
+    "opciones": [
+      {"texto": "Repite el código", "correcta": false},
+      {"texto": "Detiene errores", "correcta": false},
+      {"texto": "Intenta ejecutar código que puede fallar", "correcta": true},
+      {"texto": "Ejecuta solo si hay error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 56,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué excepción se lanza con int(\"hola\")?",
+    "respuesta": "ValueError",
+    "opciones": [
+      {"texto": "TypeError", "correcta": false},
+      {"texto": "ValueError", "correcta": true},
+      {"texto": "KeyError", "correcta": false},
+      {"texto": "SyntaxError", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 55,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué bloque se ejecuta siempre al usar try?",
+    "respuesta": "finally",
+    "opciones": [
+      {"texto": "except", "correcta": false},
+      {"texto": "else", "correcta": false},
+      {"texto": "finally", "correcta": true},
+      {"texto": "loop", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 54,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es una buena práctica al capturar errores?",
+    "respuesta": "Capturar errores específicos",
+    "opciones": [
+      {"texto": "Usar except: para todo", "correcta": false},
+      {"texto": "Ignorar el error", "correcta": false},
+      {"texto": "Capturar errores específicos", "correcta": true},
+      {"texto": "Usar exit() siempre", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 55,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué bloque se ejecuta si no hubo error?",
+    "respuesta": "else",
+    "opciones": [
+      {"texto": "finally", "correcta": false},
+      {"texto": "except", "correcta": false},
+      {"texto": "else", "correcta": true},
+      {"texto": "try", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 56,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál NO es una excepción en Python?",
+    "respuesta": "ListError",
+    "opciones": [
+      {"texto": "TypeError", "correcta": false},
+      {"texto": "ListError", "correcta": true},
+      {"texto": "KeyError", "correcta": false},
+      {"texto": "ZeroDivisionError", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 54,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace raise en Python?",
+    "respuesta": "Lanza una excepción manualmente",
+    "opciones": [
+      {"texto": "Repite una excepción", "correcta": false},
+      {"texto": "Detiene el código", "correcta": false},
+      {"texto": "Lanza una excepción manualmente", "correcta": true},
+      {"texto": "Corrige errores automáticamente", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 53,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace este código?\ntry:\n    print(1 / 0)\nexcept ZeroDivisionError:\n    print(\"Error\")",
+    "respuesta": "Imprime \"Error\"",
+    "opciones": [
+      {"texto": "Imprime 1", "correcta": false},
+      {"texto": "Da error", "correcta": false},
+      {"texto": "Imprime \"Error\"", "correcta": true},
+      {"texto": "Nada", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 55,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el orden correcto en un bloque de manejo de errores completo?",
+    "respuesta": "try → except → else → finally",
+    "opciones": [
+      {"texto": "try → except → finally → else", "correcta": false},
+      {"texto": "try → finally → else → except", "correcta": false},
+      {"texto": "try → except → else → finally", "correcta": true},
+      {"texto": "try → else → except → finally", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 53,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para evitar que se caiga por división:",
+    "codigo_inicial": "try:\n    print(10 / 0)\nexcept __________:\n    print(\"Error de división\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 54,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para capturar error de tipo:",
+    "codigo_inicial": "try:\n    print(\"hola\" + 5)\nexcept __________:\n    print(\"Error de tipo\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 56,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Captura el error si accedes a un índice inválido:",
+    "codigo_inicial": "lista = [1, 2, 3]\ntry:\n    print(lista[5])\nexcept __________:\n    print(\"Índice inválido\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 55,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Usa finally para mostrar un mensaje siempre:",
+    "codigo_inicial": "try:\n    print(10 / 2)\nexcept:\n    print(\"Error\")\n_________:\n    print(\"Operación finalizada\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 56,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Simular un cajero automático que:\n• Solicite un monto a retirar\n• Maneje:\n   o Si no es número\n   o Si el monto es mayor al saldo",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 56,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Validador de contraseña con errores personalizados:\n• Si tiene menos de 8 caracteres → raise ValueError\n• Si no contiene número → raise ValueError",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "id_leccion": 63,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué beneficio tiene definir funciones para dibujar?",
+    "respuesta": "Permite repetir estructuras fácilmente",
+    "opciones": [
+      { "texto": "Hace más lento el programa", "correcta": false },
+      { "texto": "Permite repetir estructuras fácilmente", "correcta": true },
+      { "texto": "Evita usar turtle", "correcta": false },
+      { "texto": "Es obligatorio en Python", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 64,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace este código?\nfor _ in range(6):\n    t.forward(100)\n    t.right(60)",
+    "respuesta": "Dibuja un hexágono",
+    "opciones": [
+      { "texto": "Dibuja un triángulo", "correcta": false },
+      { "texto": "Dibuja un círculo", "correcta": false },
+      { "texto": "Dibuja un hexágono", "correcta": true },
+      { "texto": "No dibuja nada", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 65,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué sucede si no se llama end_fill() después de begin_fill()?",
+    "respuesta": "No se rellena la figura",
+    "opciones": [
+      { "texto": "No pasa nada", "correcta": false },
+      { "texto": "No se rellena la figura", "correcta": true },
+      { "texto": "Se borra la figura", "correcta": false },
+      { "texto": "El programa se detiene", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 64,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Para qué se usa t.circle(50, 180)?",
+    "respuesta": "Para dibujar medio círculo",
+    "opciones": [
+      { "texto": "Para dibujar medio círculo", "correcta": true },
+      { "texto": "Para mover la tortuga sin dibujar", "correcta": false },
+      { "texto": "Para rellenar un círculo", "correcta": false },
+      { "texto": "Para girar en círculo sin avanzar", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 63,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace este código?\ndef petalo():\n    for _ in range(2):\n        t.circle(100, 60)\n        t.left(120)",
+    "respuesta": "Dibuja un pétalo curvo",
+    "opciones": [
+      { "texto": "Dibuja una hoja", "correcta": false },
+      { "texto": "Dibuja dos círculos", "correcta": false },
+      { "texto": "Dibuja un pétalo curvo", "correcta": true },
+      { "texto": "Dibuja una estrella", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 65,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de estos comandos modifica el grosor del trazo?",
+    "respuesta": "t.pensize()",
+    "opciones": [
+      { "texto": "t.stroke()", "correcta": false },
+      { "texto": "t.pensize()", "correcta": true },
+      { "texto": "t.fillcolor()", "correcta": false },
+      { "texto": "t.forward()", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 64,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "Si rotamos t.right(30) tras cada figura repetida, ¿cuántas veces para girar 360°?",
+    "respuesta": "12",
+    "opciones": [
+      { "texto": "6", "correcta": false },
+      { "texto": "12", "correcta": true },
+      { "texto": "30", "correcta": false },
+      { "texto": "3", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 65,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué permite usar fillcolor()?",
+    "respuesta": "Cambiar el color del interior de una figura",
+    "opciones": [
+      { "texto": "Cambiar el color del borde", "correcta": false },
+      { "texto": "Dibujar con fondo blanco", "correcta": false },
+      { "texto": "Cambiar el color del interior de una figura", "correcta": true },
+      { "texto": "Cambiar el color del texto", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 65,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué pasa si usas t.hideturtle() después de dibujar?",
+    "respuesta": "La tortuga deja de mostrarse visualmente",
+    "opciones": [
+      { "texto": "El dibujo desaparece", "correcta": false },
+      { "texto": "La tortuga ya no se mueve", "correcta": false },
+      { "texto": "La tortuga deja de mostrarse visualmente", "correcta": true },
+      { "texto": "El trazo se borra", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 64,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa la función que dibuja una estrella de 5 puntas:",
+    "codigo_inicial": "def estrella(tortuga, tamaño):\n    for _ in range(5):\n        tortuga.forward(tamaño)\n        tortuga.______(144)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 64,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el código para hacer una figura rotada 8 veces:",
+    "codigo_inicial": "for _ in range(8):\n    t.circle(50)\n    t.________(45)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 65,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa esta función para un cuadrado con color:",
+    "codigo_inicial": "def cuadrado(tortuga, lado, color):\n    tortuga.________(color)\n    tortuga.begin_fill()\n    for _ in range(4):\n        tortuga.forward(lado)\n        tortuga.________(90)\n    tortuga.end_fill()",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 66,
+    "tipo": "codigo",
+    "puntos": 20,
+    "texto": "Diseña una flor de 10 pétalos que use una función con 3 parámetros: color del trazo, tamaño del pétalo y ángulo de rotación.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 67,
+    "tipo": "codigo",
+    "puntos": 20,
+    "texto": "Crea un mandala con al menos 3 capas diferentes:\n• Una estrella central\n• Una flor intermedia\n• Un borde exterior con polígonos o figuras simétricas\n• Usa 3 funciones propias y hazlo modular.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

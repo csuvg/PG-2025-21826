@@ -1,0 +1,238 @@
+[
+  {
+    "id_leccion": 40,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué método agrega un elemento al final de una lista?",
+    "respuesta": "append()",
+    "opciones": [
+      {"texto": "add()", "correcta": false},
+      {"texto": "append()", "correcta": true},
+      {"texto": "insert()", "correcta": false},
+      {"texto": "push()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 43,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el resultado de \"python\".upper()?",
+    "respuesta": "PYTHON",
+    "opciones": [
+      {"texto": "\"PYTHON\"", "correcta": true},
+      {"texto": "\"Python\"", "correcta": false},
+      {"texto": "\"python\"", "correcta": false},
+      {"texto": "\"PYTHON!\"", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 40,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué devuelve len([1, 2, 3])?",
+    "respuesta": "3",
+    "opciones": [
+      {"texto": "2", "correcta": false},
+      {"texto": "3", "correcta": true},
+      {"texto": "4", "correcta": false},
+      {"texto": "Error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 44,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace \"uno dos tres\".split()?",
+    "respuesta": "Separa en palabras",
+    "opciones": [
+      {"texto": "Convierte a mayúsculas", "correcta": false},
+      {"texto": "Separa en palabras", "correcta": true},
+      {"texto": "Une caracteres", "correcta": false},
+      {"texto": "Repite la cadena", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 41,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace lista[::-1]?",
+    "respuesta": "Invierte la lista",
+    "opciones": [
+      {"texto": "Devuelve lista vacía", "correcta": false},
+      {"texto": "Ordena ascendente", "correcta": false},
+      {"texto": "Invierte la lista", "correcta": true},
+      {"texto": "No es válido", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 39,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es un ejemplo de cadena mutable?",
+    "respuesta": "['h', 'o', 'l', 'a']",
+    "opciones": [
+      {"texto": "\"Hola\"", "correcta": false},
+      {"texto": "123", "correcta": false},
+      {"texto": "['h', 'o', 'l', 'a']", "correcta": true},
+      {"texto": "None", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 40,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace el método remove(\"x\") en una lista?",
+    "respuesta": "Elimina la primera ocurrencia de “x”",
+    "opciones": [
+      {"texto": "Borra todos los elementos", "correcta": false},
+      {"texto": "Agrega un elemento", "correcta": false},
+      {"texto": "Elimina la primera ocurrencia de “x”", "correcta": true},
+      {"texto": "Elimina el último elemento", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 43,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué devuelve \"Python\".find(\"t\")?",
+    "respuesta": "3",
+    "opciones": [
+      {"texto": "False", "correcta": false},
+      {"texto": "3", "correcta": true},
+      {"texto": "0", "correcta": false},
+      {"texto": "\"t\"", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 43,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace \"Hola\".replace(\"H\", \"M\")?",
+    "respuesta": "\"Mola\"",
+    "opciones": [
+      {"texto": "\"Hola\"", "correcta": false},
+      {"texto": "\"Mola\"", "correcta": true},
+      {"texto": "\"HolaM\"", "correcta": false},
+      {"texto": "\"H\"", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 44,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué tipo de datos se obtiene con split()?",
+    "respuesta": "Lista",
+    "opciones": [
+      {"texto": "Cadena", "correcta": false},
+      {"texto": "Lista", "correcta": true},
+      {"texto": "Entero", "correcta": false},
+      {"texto": "Booleano", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 43,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué método convierte una lista en cadena separada por espacios?",
+    "respuesta": "join()",
+    "opciones": [
+      {"texto": "split()", "correcta": false},
+      {"texto": "join()", "correcta": true},
+      {"texto": "replace()", "correcta": false},
+      {"texto": "append()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 45,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el resultado de [x * 2 for x in [1, 2, 3]]?",
+    "respuesta": "[2, 4, 6]",
+    "opciones": [
+      {"texto": "[1, 2, 3, 1, 2, 3]", "correcta": false},
+      {"texto": "[2, 4, 6]", "correcta": true},
+      {"texto": "[1, 4, 9]", "correcta": false},
+      {"texto": "[2, 2, 2]", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 40,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el código para agregar “amarillo”:",
+    "codigo_inicial": "colores = [\"rojo\", \"verde\"]\ncolores._______(\"amarillo\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 44,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Usa split() para separar por comas:",
+    "codigo_inicial": "frutas = \"manzana,pera,uva\"\nlista = frutas.___________",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 41,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Imprime los últimos 3 elementos:",
+    "codigo_inicial": "nombres = [\"Ana\", \"Luis\", \"Pedro\", \"Juan\", \"Sofía\"]\nprint(nombres[____:])",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 42,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Convierte la cadena \"Python\" a lista de letras:",
+    "codigo_inicial": "letras = [____ for ____ in \"Python\"]",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 43,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Usa join() para unir una lista en una cadena con guiones:",
+    "codigo_inicial": "palabras = [\"hola\", \"mundo\"]\nfrase = \"-\".______(palabras)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 43,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Reemplaza los espacios por guiones en una cadena:",
+    "codigo_inicial": "texto = \"bienvenido al curso\"\nnuevo = texto.________(\" \", \"-\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 45,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crea una función contar_letras que devuelva la cantidad de letras en una palabra",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 45,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crea una función que reciba una lista de palabras y devuelva solo las que tienen más de 4 letras",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 45,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un programa que reciba una frase y cuente cuántas veces aparece la palabra “python”",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 44,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Crea una función que convierta una lista de números en cadena separados por comas",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "nombre": "EXPLORADOR DE VARIABLES",
+    "descripcion": "Completó el Nivel 1 (Explorador de Variables)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel1-Completado.png"
+  },
+  {
+    "nombre": "GUARDIÁN DE LA LÓGICA",
+    "descripcion": "Completó el Nivel 2 (Guardián de la Lógica)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel2-Completado.png"
+  },
+  {
+    "nombre": "MAESTRO DE DECISIONES",
+    "descripcion": "Completó el Nivel 3 (Maestro de Decisiones)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel3-Completado.png"
+  },
+  {
+    "nombre": "DOMADOR DE BUCLES",
+    "descripcion": "Completó el Nivel 4 (Domador de Bucles)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel4-Completado.png"
+  },
+  {
+    "nombre": "FORJADOR DE FUNCIONES",
+    "descripcion": "Completó el Nivel 5 (Forjador de Funciones)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel5-Completado.png"
+  },
+  {
+    "nombre": "CREADOR DE APPS",
+    "descripcion": "Completó el Nivel 6 (Creador de Apps con Streamlit)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel6-Completado.png"
+  },
+  {
+    "nombre": "MAGOS DE MÓDULOS",
+    "descripcion": "Completó el Nivel 7 (Mago de Módulos)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel7-Completado.png"
+  },
+  {
+    "nombre": "GUARDIÁN DE LISTAS Y CADENAS",
+    "descripcion": "Completó el Nivel 8 (Guardián de Listas y Cadenas)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel8-Completado.png"
+  },
+  {
+    "nombre": "MAESTRO DE DICCIONARIOS",
+    "descripcion": "Completó el Nivel 9 (Maestro de Diccionarios)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel9-Completado.png"
+  },
+  {
+    "nombre": "INVOCADOR DE ERRORES",
+    "descripcion": "Completó el Nivel 10 (Invocador de Errores)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel10-Completado.png"
+  },
+  {
+    "nombre": "APRENDIZ DE TURTLE",
+    "descripcion": "Completó el Nivel 11 (Aprendiz del Dibujo con Turtle)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel11-Completado.png"
+  },
+  {
+    "nombre": "ARQUITECTO VISUAL",
+    "descripcion": "Completó el Nivel 12 (Arquitecto Visual con Turtle)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel12-Completado.png"
+  },
+  {
+    "nombre": "INICIADOR DE JUEGOS",
+    "descripcion": "Completó el Nivel 13 (Iniciador de Juegos con Pygame)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel13-Completado.png"
+  },
+  {
+    "nombre": "MAESTRO DE JUEGOS",
+    "descripcion": "Completó el Nivel 14 (Maestro de Juegos con Pygame)",
+    "icono": "/backend/static/insignias/NivelCompletado/Nivel14-Completado.png"
+  },
+  {
+    "nombre": "PRECISIÓN VARIABLE",
+    "descripcion": "Completó el Nivel 1 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel1-Perfecto.png"
+  },
+  {
+    "nombre": "LÓGICA SIN FALLA",
+    "descripcion": "Completó el Nivel 2 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel2-Perfecto.png"
+  },
+  {
+    "nombre": "DECISIÓN PERFECTA",
+    "descripcion": "Completó el Nivel 3 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel3-Perfecto.png"
+  },
+  {
+    "nombre": "BUCLE IMPECABLE",
+    "descripcion": "Completó el Nivel 4 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel4-Perfecto.png"
+  },
+  {
+    "nombre": "FORJADOR DE FUNCIONES PERFECTO",
+    "descripcion": "Completó el Nivel 5 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel5-Perfecto.png"
+  },
+  {
+    "nombre": "CREADOR DE APPS PERFECTO",
+    "descripcion": "Completó el Nivel 6 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel6-Perfecto.png"
+  },
+  {
+    "nombre": "MAGO DE MODULOS",
+    "descripcion": "Completó el Nivel 7 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel7-Perfecto.png"
+  },
+  {
+    "nombre": "LÓGICA DE LISTAS PERFECTA",
+    "descripcion": "Completó el Nivel 8 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel8-Perfecto.png"
+  },
+  {
+    "nombre": "DICCIONARIO PERFECTO",
+    "descripcion": "Completó el Nivel 9 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel9-Perfecto.png"
+  },
+  {
+    "nombre": "SIN ERRORES ANTE ERRORES",
+    "descripcion": "Completó el Nivel 10 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel10-Perfecto.png"
+  },
+  {
+    "nombre": "DIBUJO TURTLE PERFECTO",
+    "descripcion": "Completó el Nivel 11 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel11-Perfecto.png"
+  },
+  {
+    "nombre": "ARQUITECTO VISUAL PERFECTO",
+    "descripcion": "Completó el Nivel 12 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel12-Perfecto.png"
+  },
+  {
+    "nombre": "JUEGO PERFECTO",
+    "descripcion": "Completó el Nivel 13 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel13-Perfecto.png"
+  },
+  {
+    "nombre": "JUEGO MAESTRO",
+    "descripcion": "Completó el Nivel 14 sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Nivel14-Perfecto.png"
+  },
+  {
+    "nombre": "VARIABLE VALIENTE",
+    "descripcion": "Terminó el Nivel 1 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel1-Notable.png"
+  },
+  {
+    "nombre": "LÓGICO PERSISTENTE",
+    "descripcion": "Terminó el Nivel 2 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel2-Notable.png"
+  },
+  {
+    "nombre": "DECISIONES CONSTANTES",
+    "descripcion": "Terminó el Nivel 3 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel3-Notable.png"
+  },
+  {
+    "nombre": "BUCLE RESISTENTE",
+    "descripcion": "Terminó el Nivel 4 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel4-Notable.png"
+  },
+  {
+    "nombre": "FORJADOR DE FUNCIONES EN PROCESO",
+    "descripcion": "Terminó el Nivel 5 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel5-Notable.png"
+  },
+  {
+    "nombre": "CREADOR DE APPS EN MARCHA",
+    "descripcion": "Terminó el Nivel 6 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel6-Notable.png"
+  },
+  {
+    "nombre": "MÓDULOS EN MARCHA",
+    "descripcion": "Terminó el Nivel 7 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel7-Notable.png"
+  },
+  {
+    "nombre": "APRENDIZ DE LISTAS",
+    "descripcion": "Terminó el Nivel 8 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel8-Notable.png"
+  },
+  {
+    "nombre": "DICCIONARIO EN CONSTRUCCIÓN",
+    "descripcion": "Terminó el Nivel 9 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel9-Notable.png"
+  },
+  {
+    "nombre": "APRENDIZ DE EXCEPCIONES",
+    "descripcion": "Terminó el Nivel 10 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel10-Notable.png"
+  },
+  {
+    "nombre": "DIBUJO PRECISO ",
+    "descripcion": "Terminó el Nivel 11 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel11-Notable.png"
+  },
+  {
+    "nombre": "ARQUITECTO PRECISO",
+    "descripcion": "Terminó el Nivel 12 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel12-Notable.png"
+  },
+  {
+    "nombre": "INICIADOR NOTABLE",
+    "descripcion": "Terminó el Nivel 13 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel13-Notable.png"
+  },
+  {
+    "nombre": "JUEGO NOTABLE",
+    "descripcion": "Terminó el Nivel 14 con menos de 5 errores",
+    "icono": "/backend/static/insignias/Notable/Nivel14-Notable.png"
+  },
+  {
+    "nombre": "SIN ERRORES - PRINCIPIANTE",
+    "descripcion": "Completó todos los ejercicios de los niveles Principiantes sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Categoria1-Perfecto.png"
+  },
+  {
+    "nombre": "SIN ERRORES - INTERMEDIO",
+    "descripcion": "Completó todos los ejercicios de niveles Intermedios sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Categoria2-Perfecto.png"
+  },
+  {
+    "nombre": "SIN ERRORES - AVANZADO",
+    "descripcion": "Completó todos los ejercicios Avanzados sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Categoria3-Perfecto.png"
+  },
+  {
+    "nombre": "SIN ERRORES - EXPERTO",
+    "descripcion": "Completó todos los ejercicios Expertos sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Categoria4-Perfecto.png"
+  },
+  {
+    "nombre": "SIN ERRORES - VISUAL",
+    "descripcion": "Completó todos los ejercicios Visual sin errores",
+    "icono": "/backend/static/insignias/Perfecto/Categoria5-Perfecto.png"
+  },
+  {
+    "nombre": "AVANCE A INTERMEDIO",
+    "descripcion": "Completó los niveles Principiantes",
+    "icono": "/backend/static/insignias/Categoria/Categoria1.png"
+  },
+  {
+    "nombre": "AVANCE A AVANZADO",
+    "descripcion": "Completó los niveles Intermedios",
+    "icono": "/backend/static/insignias/Categoria/Categoria2.png"
+  },
+  {
+    "nombre": "AVANCE A EXPERTO",
+    "descripcion": "Completó los niveles Avanzados",
+    "icono": "/backend/static/insignias/Categoria/Categoria3.png"
+  },
+  {
+    "nombre": "EXPERTO",
+    "descripcion": "Completó los niveles Avanzados",
+    "icono": "/backend/static/insignias/Categoria/Categoria4.png"
+  },
+  {
+    "nombre": "GRADUADO DE GAMIFY.PY",
+    "descripcion": "Completó todas las categorías de niveles + Ejercicio final",
+    "icono": "/backend/static/insignias/Categoria/Graduado.png"
+  },
+  {
+    "nombre": "PRIMER PASO",
+    "descripcion": "Se registró en la plataforma",
+    "icono": "/backend/static/insignias/Otras/PrimerPaso.png"
+  },
+  {
+    "nombre": "¡HOLA MUNDO!",
+    "descripcion": "Completó su primera lección",
+    "icono": "/backend/static/insignias/Otras/HolaMundo.png"
+  },
+  {
+    "nombre": "PRIMER EJERCICIO RESUELTO",
+    "descripcion": "Completó su primer ejercicio correctamente",
+    "icono": "/backend/static/insignias/Otras/PrimerEjercicio.png"
+  },
+  {
+    "nombre": "RACHA X3",
+    "descripcion": "Completó 3 ejercicios correctamente",
+    "icono": "/backend/static/insignias/Otras/RachaX3.png"
+  },
+  {
+    "nombre": "RACHA X7",
+    "descripcion": "Completó 7 ejercicios correctamente",
+    "icono": "/backend/static/insignias/Otras/RachaX7.png"
+  },
+  {
+    "nombre": "RACHA X30",
+    "descripcion": "Completó 30 ejercicios correctamente",
+    "icono": "/backend/static/insignias/Otras/RachaX30.png"
+  },
+  {
+    "nombre": "RACHA X50",
+    "descripcion": "Completó 50 ejercicios correctamente",
+    "icono": "/backend/static/insignias/Otras/RachaX50.png"
+  }
+]

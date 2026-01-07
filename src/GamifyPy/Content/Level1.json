@@ -1,0 +1,167 @@
+[
+  {
+    "id_leccion": 1,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de las siguientes opciones es un nombre válido para una variable en Python?",
+    "respuesta": "nombre_usuario",
+    "opciones": [
+      {"texto": "1numero", "correcta": false},
+      {"texto": "nombre_usuario", "correcta": true},
+      {"texto": "print", "correcta": false},
+      {"texto": "!edad", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 2,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué tipo de dato es 3.14 en Python?",
+    "respuesta": "Float",
+    "opciones": [
+      {"texto": "Int", "correcta": false},
+      {"texto": "Str", "correcta": false},
+      {"texto": "Float", "correcta": true},
+      {"texto": "Bool", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 3,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué operador se usa para obtener el resto de una división?",
+    "respuesta": "%",
+    "opciones": [
+      {"texto": "/", "correcta": false},
+      {"texto": "//", "correcta": false},
+      {"texto": "%", "correcta": true},
+      {"texto": "**", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 4,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué imprime print(\"Hola \" + \"mundo\")?",
+    "respuesta": "Hola mundo",
+    "opciones": [
+      {"texto": "\"Hola + mundo\"", "correcta": false},
+      {"texto": "Hola mundo", "correcta": true},
+      {"texto": "Hola + mundo", "correcta": false},
+      {"texto": "\"Hola mundo\"", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 2,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué resultado tiene type(True)?",
+    "respuesta": "<class 'bool'>",
+    "opciones": [
+      {"texto": "<class 'int'>", "correcta": false},
+      {"texto": "<class 'bool'>", "correcta": true},
+      {"texto": "<class 'str'>", "correcta": false},
+      {"texto": "<class 'float'>", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 3,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué valor tiene la variable x después de ejecutar x = 2 + 3 * 4?",
+    "respuesta": "14",
+    "opciones": [
+      {"texto": "20", "correcta": false},
+      {"texto": "14", "correcta": true},
+      {"texto": "24", "correcta": false},
+      {"texto": "10", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 1,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de estas expresiones NO es válida en Python?",
+    "respuesta": "5 = x",
+    "opciones": [
+      {"texto": "a = 5", "correcta": false},
+      {"texto": "nombre = \"Juan\"", "correcta": false},
+      {"texto": "5 = x", "correcta": true},
+      {"texto": "x = y + 3", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 4,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué imprime print(f\"Tienes {edad} años\") si edad = 18?",
+    "respuesta": "Tienes 18 años",
+    "opciones": [
+      {"texto": "Tienes {edad} años", "correcta": false},
+      {"texto": "Tienes edad años", "correcta": false},
+      {"texto": "Tienes 18 años", "correcta": true},
+      {"texto": "Tienes años 18", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 2,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el resultado de type(\"3.14\")?",
+    "respuesta": "<class 'str'>",
+    "opciones": [
+      {"texto": "<class 'float'>", "correcta": false},
+      {"texto": "<class 'int'>", "correcta": false},
+      {"texto": "<class 'str'>", "correcta": true},
+      {"texto": "<class 'bool'>", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 1,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Declara una variable llamada nombre y asígnale tu nombre.",
+    "codigo_inicial": "_________ = \"Sebastián\"",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 3,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el código para mostrar el doble de un número:",
+    "codigo_inicial": "numero = 5\nresultado = ________\nprint(resultado)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 4,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el código para imprimir: Tienes 20 años",
+    "codigo_inicial": "edad = 20\nprint(__________)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 3,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Dado a = 4, b = 2, ¿cuál es el resultado de a**b?",
+    "codigo_inicial": "a = 4\nb = 2\nresultado = ________\nprint(resultado)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 5,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un código que solicite al usuario su edad, la guarde en una variable y luego imprima un mensaje con su edad.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 5,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un código que calcule el área de un triángulo con base y altura definidas como variables. Usa la fórmula A = (b * h) / 2",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

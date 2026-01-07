@@ -1,0 +1,167 @@
+[
+  {
+    "id_leccion": 75,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué función limita los FPS del juego?",
+    "respuesta": "clock.tick(60)",
+    "opciones": [
+      { "texto": "pygame.limit()", "correcta": false },
+      { "texto": "pygame.fps(60)", "correcta": false },
+      { "texto": "clock.tick(60)", "correcta": true },
+      { "texto": "pygame.delay(60)", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 74,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace pygame.key.get_pressed()?",
+    "respuesta": "Detecta si una tecla está presionada continuamente",
+    "opciones": [
+      { "texto": "Cierra la ventana", "correcta": false },
+      { "texto": "Detecta si una tecla está presionada continuamente", "correcta": true },
+      { "texto": "Imprime la tecla presionada", "correcta": false },
+      { "texto": "Dibuja texto en pantalla", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 76,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué representa un pygame.Rect?",
+    "respuesta": "Un área rectangular",
+    "opciones": [
+      { "texto": "Un sprite", "correcta": false },
+      { "texto": "Un color", "correcta": false },
+      { "texto": "Un área rectangular", "correcta": true },
+      { "texto": "Un sonido", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 76,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el propósito de colliderect()?",
+    "respuesta": "Detectar choques entre rectángulos",
+    "opciones": [
+      { "texto": "Mover imágenes", "correcta": false },
+      { "texto": "Detectar choques entre rectángulos", "correcta": true },
+      { "texto": "Dibujar un rectángulo", "correcta": false },
+      { "texto": "Generar eventos", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 77,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cómo se reinicia la posición del personaje tras una colisión?",
+    "respuesta": "personaje_x, personaje_y = 100, 300",
+    "opciones": [
+      { "texto": "jugador.reset()", "correcta": false },
+      { "texto": "jugador.x, jugador.y = 0, 0", "correcta": false },
+      { "texto": "personaje_x, personaje_y = 100, 300", "correcta": true },
+      { "texto": "pygame.spawn()", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 77,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué sucede si no redibujas el fondo cada frame?",
+    "respuesta": "Se acumulan los dibujos anteriores",
+    "opciones": [
+      { "texto": "El juego se cierra", "correcta": false },
+      { "texto": "Se acumulan los dibujos anteriores", "correcta": true },
+      { "texto": "Nada cambia", "correcta": false },
+      { "texto": "Se borra la imagen", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 77,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Para qué sirve pygame.font.Font()?",
+    "respuesta": "Mostrar texto en pantalla",
+    "opciones": [
+      { "texto": "Dibujar botones", "correcta": false },
+      { "texto": "Detectar colisiones", "correcta": false },
+      { "texto": "Mostrar texto en pantalla", "correcta": true },
+      { "texto": "Reproducir música", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 76,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué comando dibuja un rectángulo?",
+    "respuesta": "pygame.draw.rect()",
+    "opciones": [
+      { "texto": "pygame.draw.rect()", "correcta": true },
+      { "texto": "pygame.rect.draw()", "correcta": false },
+      { "texto": "pygame.rectangle()", "correcta": false },
+      { "texto": "pygame.add_rect()", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 77,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cómo sabrías que se terminó el juego?",
+    "respuesta": "Cuando vidas == 0",
+    "opciones": [
+      { "texto": "Cuando vidas == 0", "correcta": true },
+      { "texto": "Cuando se presiona ESC", "correcta": false },
+      { "texto": "Cuando clock.tick() == 0", "correcta": false },
+      { "texto": "Cuando puntos == 0", "correcta": false }
+    ]
+  },
+  {
+    "id_leccion": 74,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para mover personaje a la derecha si se presiona la tecla:",
+    "codigo_inicial": "keys = pygame.key.get_pressed()\nif keys[pygame.K_______]:\n    personaje_x += 5",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 76,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para detectar colisión con el enemigo:",
+    "codigo_inicial": "if jugador.____________(enemigo):\n    print(\"¡Colisión!\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 77,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para restar una vida y reiniciar posición:",
+    "codigo_inicial": "if jugador.colliderect(enemigo):\n    vidas -= 1\n    personaje_x, personaje_y = _____, _____",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 77,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para mostrar texto de puntuación:",
+    "codigo_inicial": "_______ = pygame.font.Font(None, 36)\n_______ = fuente.render(\"Puntos: \" + str(puntos), True, (255, 255, 255))\nventana.______(texto, (10, 10))",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 78,
+    "tipo": "codigo",
+    "puntos": 20,
+    "texto": "Crea un juego donde el jugador se mueva a la izquierda o derecha para esquivar enemigos que caen desde la parte superior. Si colisiona, pierde vidas. Si logra esquivar 10, gana.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 78,
+    "tipo": "codigo",
+    "puntos": 20,
+    "texto": "Crea un juego donde un personaje recoja objetos. Cada vez que colisione con uno, suma un punto y el objeto reaparece en otro lugar aleatorio. Usa pygame.Rect para todo.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

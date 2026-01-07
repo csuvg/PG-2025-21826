@@ -1,0 +1,29 @@
+Última actualización: 3 de agosto de 2025
+
+Bienvenido a GamifyPy. Al acceder o utilizar nuestro sitio web, usted acepta estar legalmente obligado por estos Términos y Condiciones. Si no está de acuerdo con alguno de los términos aquí establecidos, por favor no utilice la Plataforma.
+
+1. Uso de la Plataforma
+Esta Plataforma está diseñada para estudiantes universitarios de primer año que deseen aprender programación en Python mediante una experiencia gamificada. Al registrarse, el usuario declara que la información proporcionada es veraz y comprende que su participación puede formar parte de una actividad académica dentro de un curso universitario. 
+
+2. Propiedad Intelectual
+Todo el contenido disponible en la Plataforma, incluyendo textos, ejercicios, ilustraciones, interfaz, estructura gamificada y materiales educativos, son propiedad de los desarrolladores de la Plataforma y están protegidos por leyes de propiedad intelectual. Usted se compromete a no copiar, distribuir o modificar dicho contenido sin autorización previa y por escrito.
+
+3. Uso del Módulo de Inteligencia Artificial
+La Plataforma incluye un módulo de evaluación automática de código que utiliza inteligencia artificial (IA) para brindar retroalimentación, detectar errores y ofrecer sugerencias de mejora. Usted acepta que los fragmentos de código que escriba y sus interacciones con el sistema podrán ser analizados por el módulo de IA para fines educativos, de retroalimentación y mejora de la experiencia de usuario.
+
+4. Progreso y Evaluaciones
+La Plataforma recopila información sobre su avance, desempeño y tiempo de uso. Esta información se utiliza para personalizar su experiencia, generar reportes de progreso y mejorar la eficacia de la Plataforma. Los resultados generados por el sistema, incluyendo evaluaciones y recomendaciones, se basan en estos datos y pueden variar según su desempeño.
+
+5. Restricciones
+Usted se compromete a no utilizar la Plataforma para:
+•	Manipular o interferir con el funcionamiento técnico de la Plataforma.
+•	Usar scripts automatizados o ingeniería inversa para extraer información o vulnerar la seguridad del sistema.
+
+6. Modificaciones
+Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Los cambios serán notificados a través de la Plataforma y se considerará que acepta los nuevos términos si continúa utilizando el servicio después de su publicación.
+
+7. Responsabilidad
+La Plataforma se proporciona “tal cual”, sin garantías de disponibilidad continua o de resultados específicos. No nos hacemos responsables por daños directos o indirectos derivados del uso de la Plataforma.
+
+8. Ley Aplicable
+Estos Términos se rigen por las leyes de Guatemala. Cualquier controversia será resuelta ante los tribunales competentes de dicho país.

@@ -1,0 +1,175 @@
+[
+  {
+    "id_leccion": 10,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace el siguiente código?\nedad = 16\nif edad >= 18:\n    print(\"Puedes votar\")",
+    "respuesta": "No muestra nada",
+    "opciones": [
+      {"texto": "Muestra: “Puedes votar”", "correcta": false},
+      {"texto": "No muestra nada", "correcta": true},
+      {"texto": "Da error", "correcta": false},
+      {"texto": "Muestra “Edad inválida”", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 10,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es la sintaxis correcta?",
+    "respuesta": "if x > 5: print(\"Sí\")",
+    "opciones": [
+      {"texto": "if (x > 5): print(\"Sí\")", "correcta": false},
+      {"texto": "if x > 5: print(\"Sí\")", "correcta": true},
+      {"texto": "if x > 5 then print(\"Sí\")", "correcta": false},
+      {"texto": "si x > 5: print(\"Sí\")", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 15,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué significa la sangría en Python?",
+    "respuesta": "Indica bloques de código como if, for, def, etc.",
+    "opciones": [
+      {"texto": "Decoración visual", "correcta": false},
+      {"texto": "Marca el inicio del programa", "correcta": false},
+      {"texto": "Indica bloques de código como if, for, def, etc.", "correcta": true},
+      {"texto": "Se usa solo con funciones", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 10,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de estos códigos imprime “Acceso permitido”?",
+    "respuesta": "if edad >= 18: print(\"Acceso permitido\")",
+    "opciones": [
+      {"texto": "if edad > 18 print(\"Acceso permitido\")", "correcta": false},
+      {"texto": "if edad >= 18: print(\"Acceso permitido\")", "correcta": true},
+      {"texto": "if edad => 18: print(\"Acceso permitido\")", "correcta": false},
+      {"texto": "edad >= 18 then print(\"Acceso permitido\")", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 11,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué palabra se usa para una condición alternativa si no se cumple la primera?",
+    "respuesta": "else",
+    "opciones": [
+      {"texto": "then", "correcta": false},
+      {"texto": "elif", "correcta": false},
+      {"texto": "else", "correcta": true},
+      {"texto": "otherwise", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 12,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace elif en una estructura condicional?",
+    "respuesta": "Evalúa una condición adicional si la anterior no se cumple",
+    "opciones": [
+      {"texto": "Detiene la ejecución del programa", "correcta": false},
+      {"texto": "Repite una condición", "correcta": false},
+      {"texto": "Evalúa una condición adicional si la anterior no se cumple", "correcta": true},
+      {"texto": "Es igual a else", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 13,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es un ejemplo válido de condicional anidado?",
+    "respuesta": "if x > 0: if y > 0: print(\"Positivo\")",
+    "opciones": [
+      {"texto": "if x > 0: if y > 0: print(\"Positivo\")", "correcta": true},
+      {"texto": "if x > 0 then if y > 0 print(\"Positivo\")", "correcta": false},
+      {"texto": "if (x > 0 and if y > 0):", "correcta": false},
+      {"texto": "if x > 0: y > 0: print(\"Positivo\")", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 15,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué sucede si olvidamos la sangría dentro de un if?",
+    "respuesta": "Se genera un error de sintaxis",
+    "opciones": [
+      {"texto": "Nada, Python lo ignora", "correcta": false},
+      {"texto": "El código se ejecuta igual", "correcta": false},
+      {"texto": "Se genera un error de sintaxis", "correcta": true},
+      {"texto": "Se imprime un mensaje automático de advertencia", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 10,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué evalúa este código?\nif edad > 12 and edad < 18:\n    print(\"Adolescente\")",
+    "respuesta": "Si la edad está entre 12 y 18 (sin incluir 18)",
+    "opciones": [
+      {"texto": "Si la edad es igual a 12", "correcta": false},
+      {"texto": "Si la edad es menor a 12", "correcta": false},
+      {"texto": "Si la edad está entre 12 y 18 (sin incluir 18)", "correcta": true},
+      {"texto": "Si la edad es mayor o igual a 18", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 10,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el siguiente código para permitir el acceso si la edad es mayor o igual a 18:",
+    "codigo_inicial": "edad = 21\nif ________:\n    print(\"Puedes entrar\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 11,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa la condición para que el mensaje no se imprima:",
+    "codigo_inicial": "if _______:\n    print(\"Hola\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 12,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el siguiente bloque para manejar todas las condiciones:",
+    "codigo_inicial": "nota = 85\nif nota >= 90:\n    print(\"Excelente\")\nelif ________:\n    print(\"Muy bien\")\nelse:\n    print(\"Sigue intentando\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 13,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe la condición para que el mensaje se imprima solo si la variable activo es False:",
+    "codigo_inicial": "activo = False\nif ________:\n    print(\"El usuario no está activo\")",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 12,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un programa que diga si un número es positivo, negativo o cero.",
+    "codigo_inicial": "numero = int(input(\"Ingresa un número: \"))",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 11,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un programa que solicite una contraseña y verifique si es correcta (la contraseña correcta es \"secreto\").",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 12,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un programa que clasifique una calificación numérica:\n• 90 o más: Excelente\n• 70 a 89: Aprobado\n• Menos de 70: Reprobado",
+    "codigo_inicial": "calificacion = int(input(\"Ingresa tu calificación: \"))",
+    "respuesta": ""
+  }
+]

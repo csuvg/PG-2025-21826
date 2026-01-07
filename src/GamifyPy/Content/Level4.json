@@ -1,0 +1,175 @@
+[
+  {
+    "id_leccion": 16,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué imprime el siguiente código?\nfor i in range(3):\n    print(i)",
+    "respuesta": "0 1 2",
+    "opciones": [
+      {"texto": "0 1 2", "correcta": true},
+      {"texto": "1 2 3", "correcta": false},
+      {"texto": "0 1 2 3", "correcta": false},
+      {"texto": "Nada", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 18,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es la función de break?",
+    "respuesta": "Detener un bucle",
+    "opciones": [
+      {"texto": "Saltar una iteración", "correcta": false},
+      {"texto": "Detener un bucle", "correcta": true},
+      {"texto": "Comenzar un bucle", "correcta": false},
+      {"texto": "Reiniciar el bucle", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 19,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace continue?",
+    "respuesta": "Pasa al siguiente elemento",
+    "opciones": [
+      {"texto": "Detiene el ciclo", "correcta": false},
+      {"texto": "Pasa al siguiente elemento", "correcta": true},
+      {"texto": "Sale del ciclo", "correcta": false},
+      {"texto": "Reinicia el bucle", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 17,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de estos ciclos puede volverse infinito fácilmente?",
+    "respuesta": "while True sin break",
+    "opciones": [
+      {"texto": "for i in range(5)", "correcta": false},
+      {"texto": "while i < 10", "correcta": false},
+      {"texto": "while True sin break", "correcta": true},
+      {"texto": "for nombre in lista", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 21,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál línea es necesaria para evitar que este ciclo sea infinito?\nx = 0\nwhile x < 5:\n    print(x)",
+    "respuesta": "x += 1",
+    "opciones": [
+      {"texto": "x = x + 5", "correcta": false},
+      {"texto": "break", "correcta": false},
+      {"texto": "x += 1", "correcta": true},
+      {"texto": "continue", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 16,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué imprime este código?\nfor letra in \"hola\":\n    print(letra)",
+    "respuesta": "h o l a",
+    "opciones": [
+      {"texto": "h o l a", "correcta": true},
+      {"texto": "hola", "correcta": false},
+      {"texto": "['h', 'o', 'l', 'a']", "correcta": false},
+      {"texto": "Error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 17,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué condición se necesita para que el siguiente ciclo se ejecute 3 veces?\ni = 0\nwhile _______:\n    print(i)\n    i += 1",
+    "respuesta": "i < 3",
+    "opciones": [
+      {"texto": "i == 3", "correcta": false},
+      {"texto": "i < 3", "correcta": true},
+      {"texto": "i > 3", "correcta": false},
+      {"texto": "i <= 0", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 19,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace este código?\nfor i in range(5):\n    if i == 2:\n        continue\n    print(i)",
+    "respuesta": "Imprime todos excepto el 2",
+    "opciones": [
+      {"texto": "Imprime 0 al 4", "correcta": false},
+      {"texto": "Imprime todos excepto el 2", "correcta": true},
+      {"texto": "Imprime solo el 2", "correcta": false},
+      {"texto": "Imprime error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 17,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué sucede con este código?\nwhile False:\n    print(\"Hola\")",
+    "respuesta": "No se imprime nada",
+    "opciones": [
+      {"texto": "Se imprime “Hola” una vez", "correcta": false},
+      {"texto": "Se imprime infinitamente", "correcta": false},
+      {"texto": "No se imprime nada", "correcta": true},
+      {"texto": "Da error", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 16,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un ciclo for que imprima los números del 1 al 10:",
+    "codigo_inicial": "for i in ________:\n    print(i)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 17,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el ciclo while para que imprima 5 veces “Hola”:",
+    "codigo_inicial": "contador = 0\nwhile ____________:\n    print(\"Hola\")\n    contador += 1",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 21,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Corrige este ciclo while que nunca termina:",
+    "codigo_inicial": "i = 1\nwhile i < 3:\n    print(i)\n    _________",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 18,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Agrega un break que detenga el ciclo si el usuario escribe \"parar\":",
+    "codigo_inicial": "while True:\n    entrada = input(\"Escribe algo: \")\n    __________\n    print(\"Escribiste:\", entrada)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 16,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Usa un for para mostrar la tabla del 7 del 1 al 10:",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 17,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un juego de adivinanza: el usuario debe adivinar un número secreto. Usa while para seguir preguntando hasta que acierte.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 20,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe un programa que pida 5 palabras y las imprima una por una usando un ciclo.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]

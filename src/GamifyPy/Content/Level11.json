@@ -1,0 +1,206 @@
+[
+  {
+    "id_leccion": 58,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace t.forward(100)?",
+    "respuesta": "Avanza 100 unidades",
+    "opciones": [
+      {"texto": "Gira la tortuga", "correcta": false},
+      {"texto": "Dibuja un círculo", "correcta": false},
+      {"texto": "Avanza 100 unidades", "correcta": true},
+      {"texto": "Cambia el color", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 60,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué instrucción cambia el color de relleno?",
+    "respuesta": "t.fillcolor()",
+    "opciones": [
+      {"texto": "t.pensize()", "correcta": false},
+      {"texto": "t.fillcolor()", "correcta": true},
+      {"texto": "t.begin_fill()", "correcta": false},
+      {"texto": "t.bgcolor()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 61,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué se necesita para comenzar y terminar un relleno?",
+    "respuesta": "begin_fill() y end_fill()",
+    "opciones": [
+      {"texto": "start() y stop()", "correcta": false},
+      {"texto": "begin() y end()", "correcta": false},
+      {"texto": "begin_fill() y end_fill()", "correcta": true},
+      {"texto": "fill_on() y fill_off()", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 59,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace este código?\nfor _ in range(4):\n    t.forward(100)\n    t.right(90)",
+    "respuesta": "Un cuadrado",
+    "opciones": [
+      {"texto": "Un triángulo", "correcta": false},
+      {"texto": "Un círculo", "correcta": false},
+      {"texto": "Un cuadrado", "correcta": true},
+      {"texto": "Una línea recta", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 59,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué comando hace girar a la tortuga 180 grados?",
+    "respuesta": "a y c son correctas",
+    "opciones": [
+      {"texto": "t.right(180)", "correcta": true},
+      {"texto": "t.turn(180)", "correcta": false},
+      {"texto": "t.left(180)", "correcta": true},
+      {"texto": "a y c son correctas", "correcta": true}
+    ]
+  },
+  {
+    "id_leccion": 61,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué pasa si omites end_fill()?",
+    "respuesta": "No se aplica el color de relleno",
+    "opciones": [
+      {"texto": "No se dibuja nada", "correcta": false},
+      {"texto": "Se rellena infinito", "correcta": false},
+      {"texto": "No se aplica el color de relleno", "correcta": true},
+      {"texto": "El programa se cierra", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 59,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace t.pencolor(\"blue\")?",
+    "respuesta": "Cambia el color del trazo de la tortuga",
+    "opciones": [
+      {"texto": "Cambia el color de fondo", "correcta": false},
+      {"texto": "Cambia el color del texto", "correcta": false},
+      {"texto": "Cambia el color del trazo de la tortuga", "correcta": true},
+      {"texto": "Cambia el color del relleno", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 61,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el propósito de t.begin_fill()?",
+    "respuesta": "Empezar a rellenar una figura",
+    "opciones": [
+      {"texto": "Cambiar el color de fondo", "correcta": false},
+      {"texto": "Comenzar a dibujar una línea", "correcta": false},
+      {"texto": "Empezar a rellenar una figura", "correcta": true},
+      {"texto": "Finalizar un dibujo", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 59,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el valor mínimo que se puede usar con t.pensize()?",
+    "respuesta": "1",
+    "opciones": [
+      {"texto": "1", "correcta": true},
+      {"texto": "0", "correcta": false},
+      {"texto": "10", "correcta": false},
+      {"texto": "Cualquier número negativo", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 58,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál de estos comandos pertenece al módulo turtle?",
+    "respuesta": "turtle.forward(50)",
+    "opciones": [
+      {"texto": "circle.draw()", "correcta": false},
+      {"texto": "pen.color()", "correcta": false},
+      {"texto": "turtle.forward(50)", "correcta": true},
+      {"texto": "draw.line(50)", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 59,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace el siguiente código?\nt.right(90)\nt.forward(100)",
+    "respuesta": "Gira 90° a la derecha y avanza 100 unidades",
+    "opciones": [
+      {"texto": "Gira 90° a la izquierda y dibuja", "correcta": false},
+      {"texto": "Gira 90° a la derecha y avanza 100 unidades", "correcta": true},
+      {"texto": "No hace nada", "correcta": false},
+      {"texto": "Dibuja un círculo de radio 100", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 62,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es el propósito de t.hideturtle()?",
+    "respuesta": "Ocultar la flecha de la tortuga",
+    "opciones": [
+      {"texto": "Eliminar la tortuga", "correcta": false},
+      {"texto": "Detener el programa", "correcta": false},
+      {"texto": "Ocultar la figura", "correcta": false},
+      {"texto": "Ocultar la flecha de la tortuga", "correcta": true}
+    ]
+  },
+  {
+    "id_leccion": 59,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa para dibujar un triángulo equilátero:",
+    "codigo_inicial": "for ___ in range(3):\n    t.forward(100)\n    t.____(120)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 61,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa este código para rellenar un cuadrado rojo:",
+    "codigo_inicial": "t.________(\"red\")\nt.begin_fill()\nfor _ in range(4):\n    t.forward(100)\n    t.right(90)\nt.________()",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 59,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Haz que el siguiente código dibuje un hexágono:",
+    "codigo_inicial": "for _ in range(___):\n    t.forward(100)\n    t.right(____)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 61,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa el código para dibujar un círculo completo relleno de amarillo:",
+    "codigo_inicial": "t.________(\"yellow\")\nt.begin_fill()\nt.circle(50)\nt.________()",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 62,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Dibuja una estrella de 5 puntas usando un ciclo for.",
+    "codigo_inicial": "# Pista: Usa forward y right con ángulo de 144°",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 62,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Dibuja una figura libre que combine begin_fill(), circle() y pensize().",
+    "codigo_inicial": "# Ejemplo: Un sol, flor, o algo creativo y simple",
+    "respuesta": ""
+  }
+]

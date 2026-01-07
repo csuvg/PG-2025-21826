@@ -1,0 +1,214 @@
+[
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué palabra clave se usa para crear una función en Python?",
+    "respuesta": "def",
+    "opciones": [
+      {"texto": "func", "correcta": false},
+      {"texto": "define", "correcta": false},
+      {"texto": "def", "correcta": true},
+      {"texto": "function", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué beneficio tiene usar funciones?",
+    "respuesta": "Permite organizar y reutilizar código",
+    "opciones": [
+      {"texto": "Gasta más memoria", "correcta": false},
+      {"texto": "Hace el código más largo", "correcta": false},
+      {"texto": "Permite organizar y reutilizar código", "correcta": true},
+      {"texto": "Hace dibujos más lentos", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace este código?\ndef dibujar():\n    print(\"Dibujo listo\")\ndibujar()",
+    "respuesta": "Imprime un texto",
+    "opciones": [
+      {"texto": "Dibuja un cuadrado", "correcta": false},
+      {"texto": "Da error", "correcta": false},
+      {"texto": "Imprime un texto", "correcta": true},
+      {"texto": "Nada", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué significa un parámetro en una función?",
+    "respuesta": "Un valor que se pasa a la función",
+    "opciones": [
+      {"texto": "Un error", "correcta": false},
+      {"texto": "Un valor que se pasa a la función", "correcta": true},
+      {"texto": "El nombre de la función", "correcta": false},
+      {"texto": "El color de fondo", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué pasa si no llamas una función después de definirla?",
+    "respuesta": "No hace nada",
+    "opciones": [
+      {"texto": "Se ejecuta igual", "correcta": false},
+      {"texto": "Da error", "correcta": false},
+      {"texto": "No hace nada", "correcta": true},
+      {"texto": "Imprime el nombre de la función", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué hace return en una función?",
+    "respuesta": "Devuelve un valor",
+    "opciones": [
+      {"texto": "Repite la función", "correcta": false},
+      {"texto": "Devuelve un valor", "correcta": true},
+      {"texto": "Borra el resultado", "correcta": false},
+      {"texto": "Dibuja en reversa", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué es def en Python?",
+    "respuesta": "Una palabra clave para definir funciones",
+    "opciones": [
+      {"texto": "Una variable", "correcta": false},
+      {"texto": "Una clase", "correcta": false},
+      {"texto": "Una palabra clave para definir funciones", "correcta": true},
+      {"texto": "Una librería", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué imprime este código?\ndef sumar(a, b):\n    return a + b\nprint(sumar(3, 4))",
+    "respuesta": "7",
+    "opciones": [
+      {"texto": "sumar(3, 4)", "correcta": false},
+      {"texto": "7", "correcta": true},
+      {"texto": "Error", "correcta": false},
+      {"texto": "a + b", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué sucede si una función no tiene return?",
+    "respuesta": "Devuelve None",
+    "opciones": [
+      {"texto": "Siempre da error", "correcta": false},
+      {"texto": "Devuelve 0", "correcta": false},
+      {"texto": "Devuelve None", "correcta": true},
+      {"texto": "Devuelve el último valor impreso", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Cuál es un buen motivo para usar funciones?",
+    "respuesta": "Para modular el código",
+    "opciones": [
+      {"texto": "Para hacer tareas repetitivas", "correcta": false},
+      {"texto": "Para evitar importar librerías", "correcta": false},
+      {"texto": "Para modular el código", "correcta": true},
+      {"texto": "Para hacer que el código sea invisible", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué significa la indentación dentro de una función?",
+    "respuesta": "Delimita el bloque de la función",
+    "opciones": [
+      {"texto": "Es opcional", "correcta": false},
+      {"texto": "Es un estilo de escritura", "correcta": false},
+      {"texto": "Delimita el bloque de la función", "correcta": true},
+      {"texto": "Se ignora en Python", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 22,
+    "tipo": "opcion_multiple",
+    "puntos": 10,
+    "texto": "¿Qué permite una función con parámetros?",
+    "respuesta": "Modificar su comportamiento según los valores",
+    "opciones": [
+      {"texto": "Que la función se repita automáticamente", "correcta": false},
+      {"texto": "Modificar su comportamiento según los valores", "correcta": true},
+      {"texto": "Que se llame sola", "correcta": false},
+      {"texto": "Ejecutar sin definirla", "correcta": false}
+    ]
+  },
+  {
+    "id_leccion": 24,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa la función para que reciba dos números y devuelva su producto:",
+    "codigo_inicial": "def multiplicar(a, b):\n    return ____",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 23,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Corrige este código para que sume los números del 1 al 3:",
+    "codigo_inicial": "def suma_total()  \n    for i in range(1, 4):  \n        suma += i  \n    print(suma)",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 24,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa la función para que reciba un número y devuelva su cuadrado:",
+    "codigo_inicial": "def cuadrado(____):  \n    return ____ * ____",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 24,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Completa la función para devolver el mayor número entre dos parámetros.",
+    "codigo_inicial": "def mayor_numero(a, b):\n    if a > b:\n        return _____ \n    else:\n        return _____",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 23,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Escribe una función es_par que reciba un número y devuelva True si es par o False si no lo es.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 25,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Define una función calculadora() que reciba dos números y un operador (+, -, , /) y devuelva el resultado correspondiente.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  },
+  {
+    "id_leccion": 23,
+    "tipo": "codigo",
+    "puntos": 15,
+    "texto": "Define una función llamada repetir_texto que reciba un texto y un número, y que imprima el texto esa cantidad de veces.",
+    "codigo_inicial": "",
+    "respuesta": ""
+  }
+]
